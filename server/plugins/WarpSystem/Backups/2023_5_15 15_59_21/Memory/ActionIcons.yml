@@ -1,0 +1,4 @@
+Background_Item:
+  Type: BLACK_STAINED_GLASS_PANE
+  Amount: 1
+  HideName: true

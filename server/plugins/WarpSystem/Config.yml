@@ -1,0 +1,182 @@
+WarpSystem:
+  Language: ENG
+  # If set to false, all players can use every user feature (admin tools still need op or modify permissions)
+  # If set to true, all players must have certain user permissions such as 'WarpSystem.Use.WarpGUI'
+  Permissions: false
+  Command_Suggestions:
+    Color: '&7'
+    Argument: '&e'
+  Update_Notifier: true
+  # A backup is created when either some functions could not be loaded correctly or a new WarpSystem version is started for the first time.
+  Backups: true
+  
+  # The beta area is there to make updates as easy as possible.
+  # Here you decide whether you want to participate in beta functions and help to test new features.
+  # !! Warning: Beta stuff is not 100% tested and may cause issues. Please visit my Discord or DM me with issues!
+  Beta:
+    Participate: false
+    Functions:
+      # Cancels teleports from other plugins and replaces them with own teleport procedures to add teleport delays, particles, sounds and potion effects
+      Teleport_Interceptions: false
+  
+  Proxy:
+    # Must be enabled to establish a valid connection to the BungeeCord/Velocity server
+    Enabled: true
+    
+    # If your proxy has a newer jar than your Spigot, there is an option to deliver this jar directly to your Spigot without FTP access.
+    #  Does not work on Windows or Mac.
+    #  Works only if a player is on your target Spigot server.
+    # Values: 0=Disabled, 1=Ask_on_Enable, 2=Automatically
+    Fetch_Updated_Jars: 0
+    
+    # Following placeholder are for WarpSigns, WarpGUI icons and portal holograms that use a GlobalWarp or a Server as Destination. (Fetch cycle: every 5 seconds)
+    # .p. - Current amount of players
+    # .mp. - Max amount of players
+    # .ci. - Count info, defined below
+    # .m. - Message of the day
+    # .s. - Status: Whether the server is online or offline, defined below
+    Placeholder:
+      # These placeholders only support color placeholders from below - NOT the entire PlaceholderAPI
+      # Placeholders use the dot indicator to reduce the text width for signs
+      Online: .sc.Online
+      Offline: .sc.Offline
+      Count_Info: .cc..p.&8/.cc..mp.
+      
+      Colors:
+        # .sc.: Status color, defined below
+        # .cc.: Count color, defined below
+        Online: '&a'
+        Offline: '&c'
+        Full: '&c'
+        Not_Full: '&a'
+  
+  GUI:
+    # false: The WarpGUI is identical on the entire server in all worlds
+    # true: The WarpGUI is different in every world
+    Bound_to_world: false
+    Admin:
+      # The number must be between inclusive 9 and inclusive 54 and must be divisible by 9.
+      Size: 54
+      Title:
+        Standard: '&c&nWarps&r'
+        In_Category: '&c&nWarps&r &c@%PAGE%'
+    User:
+      # The number must be between inclusive 9 and inclusive 54 and must be divisible by 9.
+      Size: 54
+      Title:
+        Standard: '&c&nWarps&r'
+        In_Category: '&c&nWarps&r &c@%PAGE%'
+    # If true players will see all icons even when they don't have their permissions (they still can't use them).
+    Show_Without_Permission: false
+  
+  Economy:
+    Enabled: false
+    Name: Coin(s)
+    # Priority list for economy systems
+    # Available values: EXP, Essentials, Vault, GemsEconomy, PlayerPoints
+    priority:
+    - Vault
+    - Essentials
+    - GemsEconomy
+    - PlayerPoints
+    - EXP
+  
+  Teleport:
+    # Animations are only visible for players who see the teleporting player
+    Public_Animations: true
+    Animation_After_Teleport:
+      Enabled: true
+    Delay: 0
+    Allow_Move: false
+    # Values: ACTION_BAR, TITLE (separate lines with '\n')
+    Delay_Display: ACTION_BAR
+    # A list of forbidden WorldGuard regions or world names.
+    # All types of user based teleportations are included: /back, /tpa, /tpahere, PlayerWarps, random locations
+    Forbidden_Regions: []
+    # Searches for a safe spot in a 5 blocks radius when teleporting into a danger zone in survival/adventure mode
+    Safe_TP: true
+    # PREMIUM ONLY: If true, players receive invulnerability after teleporting
+    Invulnerability:
+      Enabled: false
+      Time: 3
+  
+  # PREMIUM
+  # ByPass: warpsystem.bypass.cooldown
+  # Time format: "0d, 0h, 0m, 0s" - Unnecessary values can be removed (examples: "1d, 5m"; "10s"; "5h")!
+  Cooldown:
+    # Tpa + TpaHere
+    Tpa: 5m
+    Back: 0s
+    RandomTP: 5m
+  
+  Send:
+    Teleport_Message:
+      WarpGUI: true
+      SimpleWarps: true
+      GlobalWarps: true
+      Shortcuts: true
+      Portals: true
+      WarpSigns: true
+      CommandBlocks: true
+      PlayerWarps: true
+      Spawn: true
+      RandomTp: true
+    Teleport_Cancel_Message: true
+  
+  Functions:
+    WarpGUI: true
+    SimpleWarps: true
+    Portals: true
+    WarpSigns: true
+    GlobalWarps: true
+    Shortcuts: true
+    # Available commands: '/warp <warp>' or '/globalwarp <warp>'
+    # Required for '/tp' command for CommandBlocks (CommandBlocks with tp commands inside don't work, if you turn this to false)
+    CommandBlocks: true
+    RandomTeleports: true
+    TeleportCommand: true
+    PlayerWarps: true
+    Spawn: true
+  
+  # 'TeleportCommand' in 'Functions' (above) have to be toggled to true as well, if you want to use this feature.
+  TeleportCommands:
+    Back: true
+    Tp: true
+    TpAll: true
+    TpToggle: true
+    Tpa: true
+    TpaHere: true
+    TpaAll: true
+    TpaToggle: true
+    # Tpa, TpaHere& TpaAll: |true: Players on this server can receive/send teleport requests from/to other servers. |false: Players can only send TeleportRequests to players on this server
+    # TpAll: Only players from servers with 'Proxy: true' will be teleported to you.
+    # PREMIUM
+    Proxy: false
+    TeleportRequests:
+      # Teleport costs for a transportation via tpa or tpaHere; The teleported player has to pay
+      Teleport_Costs: 0
+      # In seconds
+      ExpireDelay: 30
+  
+  Portals:
+    # Max distance between particle and player - Don't use distances higher than 200! It will cause lags.
+    ParticleDistance: 64
+    # Holograms support PlaceholderAPI | Time format: "0d, 0h, 0m, 0s" - Unnecessary values can be removed (examples: "1d, 5m", "10s", "5h")!
+    # A value of 0 disables hologram updates
+    HologramUpdateInterval: 0h, 0m, 5s
+  
+  SimpleWarps:
+    # Adds on every created warp the standard permission: 'WarpSystem.Warps.<WarpName>'
+    Add_Permission_On_Creation: false
+    # If toggled to true, every SimpleWarp get the permission "WarpSystem.SimpleWarp.<warp>" regardless whether a warp already has a permission or not
+    # Names containing spaces (" ") will be modified with underlines ("_"). So the permission of the warp "Test test" will be "test_test".
+    Overwrite_Permissions: false
+  
+  Commands:
+    Warp:
+      # true: '/warp' opens the WarpGUI
+      # false: '/warp <warp>' teleports you to warps
+      GUI: false
+
+Do_Not_Edit:
+  Last_Version: 5.1.6-free

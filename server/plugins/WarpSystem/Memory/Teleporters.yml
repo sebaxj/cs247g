@@ -1,0 +1,25 @@
+RandomTeleporter:
+  InteractBlocks: []
+Spawn:
+  actions:
+  - value:
+      destination:
+        id:
+          X: 1037.3088
+          Pitch: -0.2998
+          Y: 34.0625
+          Z: 313.4783
+          World: world
+          Yaw: -90.2994
+        type: 6
+  displayname: Spawn
+  performed: 21
+  usage: 4
+  respawn: 2
+  fireworks: true
+  broadcast:
+  - You have woken up aboard an abandoned yacht.
+  - A viral outbreak has killed 99% of the world's population.
+  - Complete challenges, repair the boat, and create the cure!
+WarpSigns: []
+PortalsV2: []
