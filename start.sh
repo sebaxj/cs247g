@@ -5,4 +5,4 @@
 docker build -t cs247g-server .
 
 docker rm cs247g-server
-docker run -it -v server:/server -p 25565:25565 --name="cs247g-server" cs247g-server
+docker run -it -v "$(pwd)"/server:/server -p 25565:25565 --name="cs247g-server" cs247g-server

@@ -119,6 +119,8 @@ world-settings:
       swim-multiplier: 0.01
       sprint-multiplier: 0.1
       other-multiplier: 0.0
+  worldeditregentempworld:
+    verbose: false
 commands:
   log: true
   tab-complete: 0
