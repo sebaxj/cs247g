@@ -13,7 +13,7 @@ Spawn:
           Yaw: -90.2994
         type: 6
   displayname: Spawn
-  performed: 31
+  performed: 39
   usage: 4
   respawn: 2
   fireworks: true
@@ -21,5 +21,85 @@ Spawn:
   - You have woken up aboard an abandoned yacht.
   - A viral outbreak has killed 99% of the world's population.
   - Complete challenges, repair the boat, and create the cure!
-WarpSigns: []
+WarpSigns:
+- location:
+    X: 586.0
+    Y: 69.0
+    Z: 41.0
+    World: world
+  text:
+  - Right click on
+  - this sign when
+  - you're ready
+  - ''
+  performed: 5
+  actions:
+  - value:
+      destination:
+        id: scene2
+        type: 1
+- location:
+    X: 1041.0
+    Y: 36.0
+    Z: 319.0
+    World: world
+  text:
+  - =============
+  - 'Challenge 1:'
+  - '"The Island"'
+  - =============
+  performed: 3
+  actions:
+  - value:
+      destination:
+        id: challenge1
+        type: 1
+- location:
+    X: 641.0
+    Y: 38.0
+    Z: 51.0
+    World: world
+  text:
+  - Right click on
+  - this sign when
+  - you're ready
+  - ''
+  performed: 4
+  actions:
+  - value:
+      destination:
+        id: scene3
+        type: 1
+- location:
+    X: 1087.0
+    Y: 30.0
+    Z: 858.0
+    World: world
+  text:
+  - =============
+  - 'Teleport to:'
+  - Spawn
+  - =============
+  performed: 2
+  actions:
+  - value:
+      destination:
+        id: spawn
+        type: 1
+- location:
+    X: 1072.0
+    Y: 42.0
+    Z: 279.0
+    World: world
+  text:
+  - Right click on
+  - this sign when
+  - you're ready
+  - ''
+  performed: 2
+  actions:
+  - value:
+      destination:
+        id: scene4
+        type: 1
 PortalsV2: []

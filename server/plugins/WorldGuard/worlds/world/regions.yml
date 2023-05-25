@@ -90,7 +90,8 @@ regions:
     island:
         members: {}
         flags: {exit: deny, exit-deny-message: You can't leave the island without
-                solving the clue!}
+                solving the clue!, mob-damage: allow, damage-animals: allow, chest-access: allow,
+            mob-spawning: allow, use-anvil: allow}
         owners: {}
         type: poly2d
         priority: 0
