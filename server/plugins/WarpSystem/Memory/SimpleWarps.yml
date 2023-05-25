@@ -21,17 +21,6 @@ Warps:
     Yaw: -108.9076
   Created: 1685016516954
   LastChanger: kflypppw
-- LastChange: 1684396191783
-  Name: arena2
-  Location:
-    X: 1077.1955
-    Pitch: 90.0
-    Y: 49.8679
-    Z: 1064.9031
-    World: world
-    Yaw: 176.1022
-  Created: 1684396191783
-  LastChanger: McOptimusFine
 - LastChange: 1685009509104
   Name: suburb
   Location:
@@ -53,4 +42,15 @@ Warps:
     World: world
     Yaw: -121.6483
   Created: 1684207399237
+  LastChanger: McOptimusFine
+- LastChange: 1685039321864
+  Name: sand2
+  Location:
+    X: 1389.7889
+    Pitch: 11.6997
+    Y: 38.0
+    Z: 783.2851
+    World: world
+    Yaw: 83.7014
+  Created: 1685039321864
   LastChanger: McOptimusFine

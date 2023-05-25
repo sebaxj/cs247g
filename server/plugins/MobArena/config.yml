@@ -31,7 +31,7 @@ classes:
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
     effects: speed
 arenas:
-  sand:
+  desert:
     settings:
       prefix: ''
       world: world
@@ -39,10 +39,10 @@ arenas:
       protect: true
       entry-fee: ''
       default-class: ''
-      clear-wave-before-next: true
-      clear-boss-before-next: true
-      clear-wave-before-boss: true
-      clear-wave-leeway: 10
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      clear-wave-leeway: 0
       soft-restore: false
       soft-restore-drops: false
       require-empty-inv-join: false
@@ -51,7 +51,7 @@ arenas:
       monster-infight: false
       allow-teleporting: false
       spectate-on-death: true
-      auto-leave-on-end: true
+      auto-leave-on-end: false
       share-items-in-arena: true
       min-players: 0
       max-players: 0
@@ -127,28 +127,13 @@ arenas:
           '13': iron_sword, iron_pickaxe, iron_shovel
           '16': diamond_sword
     coords:
-      spawnpoints:
-        1050,38,833: 1050.5,38,833.5,0.0,0.0,world
-        1066,38,813: 1066.5,38,813.5,0.0,0.0,world
-        1064,38,841: 1064.5,38,841.5,0.0,0.0,world
-        1071,38,855: 1071.5,38,855.5,0.0,0.0,world
-        1091,38,850: 1091.5,38,850.5,0.0,0.0,world
-        1093,37,816: 1093.5,37,816.5,0.0,0.0,world
-      containers:
-        1056,35,840: 1056,35,840,0.0,0.0,world
-        1057,35,840: 1057,35,840,0.0,0.0,world
-      lobby: 1075.5,36,773.5,-1.05,0.0,world
-      spectator: 1075.5,36,773.5,-1.05,0.0,world
-      exit: 1037.5,35,313.5,-92.25,0.0,world
-      p2: 1107,56,866,0.0,0.0,world
-      p1: 1043,31,801,0.0,0.0,world
-      arena: 1089.5,38,850.5,58.8,0.0,world
-      l1: 1071,34,770,0.0,0.0,world
-      l2: 1079,40,778,0.0,0.0,world
+      spawnpoints: {}
+      containers: {}
     class-limits:
       Oddjob: -1
       My Items: -1
       Knight: -1
       Archer: -1
+      Secret: -1
       Tank: -1
       Chemist: -1
