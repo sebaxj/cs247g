@@ -18,8 +18,8 @@ regions:
             creeper-explosion: deny
             exit-deny-message: Oops! You can't walk off the boat! To leave, use the
                 teleports.
-            invincible: allow
             use: allow
+            invincible: allow
             exit-via-teleport: allow
             deny-spawn: ['minecraft:creeper']
             mob-spawning: deny
@@ -87,3 +87,11 @@ regions:
         - {x: 1015, z: 319}
         - {x: 1014, z: 319}
         - {x: 1013, z: 318}
+    suburb:
+        min: {x: 525, y: 16, z: -80}
+        max: {x: 828, y: 98, z: 308}
+        members: {}
+        flags: {passthrough: allow, mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0

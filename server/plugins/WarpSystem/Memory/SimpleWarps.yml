@@ -1,4 +1,26 @@
 Warps:
+- LastChange: 1685014647024
+  Name: spawn
+  Location:
+    X: 1037.3088
+    Pitch: -0.2998
+    Y: 34.0625
+    Z: 313.4783
+    World: world
+    Yaw: -90.2994
+  Created: 1685014647024
+  LastChanger: kflypppw
+- LastChange: 1685016516954
+  Name: city
+  Location:
+    X: 1574.4196
+    Pitch: 22.7996
+    Y: 91.9393
+    Z: 1249.5629
+    World: world
+    Yaw: -108.9076
+  Created: 1685016516954
+  LastChanger: kflypppw
 - LastChange: 1684396191783
   Name: arena2
   Location:
@@ -10,6 +32,17 @@ Warps:
     Yaw: 176.1022
   Created: 1684396191783
   LastChanger: McOptimusFine
+- LastChange: 1685009509104
+  Name: suburb
+  Location:
+    X: 596.4571
+    Pitch: 23.0984
+    Y: 73.9721
+    Z: 164.4092
+    World: world
+    Yaw: -134.1808
+  Created: 1685009509104
+  LastChanger: kflypppw
 - LastChange: 1684207399237
   Name: arena
   Location:
