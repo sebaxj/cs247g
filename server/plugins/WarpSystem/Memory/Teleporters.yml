@@ -13,7 +13,7 @@ Spawn:
           Yaw: -90.2994
         type: 6
   displayname: Spawn
-  performed: 39
+  performed: 51
   usage: 4
   respawn: 2
   fireworks: true
@@ -37,22 +37,6 @@ WarpSigns:
   - value:
       destination:
         id: scene2
-        type: 1
-- location:
-    X: 1041.0
-    Y: 36.0
-    Z: 319.0
-    World: world
-  text:
-  - =============
-  - 'Challenge 1:'
-  - '"The Island"'
-  - =============
-  performed: 3
-  actions:
-  - value:
-      destination:
-        id: challenge1
         type: 1
 - location:
     X: 641.0
@@ -80,7 +64,7 @@ WarpSigns:
   - 'Teleport to:'
   - Spawn
   - =============
-  performed: 2
+  performed: 3
   actions:
   - value:
       destination:

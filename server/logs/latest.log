@@ -1,836 +1,255 @@
-[20:41:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:41:37] [ServerMain/INFO]: Loaded 7 recipes
-[20:41:40] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[20:41:40] [Server thread/INFO]: Loading properties
-[20:41:40] [Server thread/INFO]: This server is running CraftBukkit version 3749-Spigot-7da74da-d9324b4 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT)
-[20:41:40] [Server thread/INFO]: Debug logging is disabled
-[20:41:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:41:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:41:40] [Server thread/INFO]: Default game type: SURVIVAL
-[20:41:40] [Server thread/INFO]: Generating keypair
-[20:41:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:41:41] [Server thread/INFO]: Using epoll channel type
-[20:41:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.14+6360-094b734
-[20:41:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@69abf455]
-[20:41:44] [Server thread/INFO]: [MobArena] Loading MobArena v0.107
-[20:41:44] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
-[20:41:44] [Server thread/INFO]: [WarpSystem] Loading WarpSystem v5.1.6-free
-[20:41:44] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
-[20:41:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:41:45] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:41:46] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[20:41:49] [Server thread/INFO]: [WorldEdit] ====================================================
-[20:41:49] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[20:41:49] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[20:41:49] [Server thread/INFO]: [WorldEdit]   
-[20:41:49] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[20:41:49] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[20:41:49] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[20:41:49] [Server thread/INFO]: [WorldEdit]   
-[20:41:49] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[20:41:49] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[20:41:49] [Server thread/INFO]: [WorldEdit]   
-[20:41:49] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[20:41:49] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[20:41:49] [Server thread/INFO]: [WorldEdit]   
-[20:41:49] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[20:41:49] [Server thread/INFO]: [WorldEdit] ====================================================
-[20:41:49] [Server thread/INFO]: Preparing level "world"
-[20:41:49] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:41:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:41:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[20:41:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[20:41:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[20:41:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[20:41:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:41:49] [Server thread/INFO]: Max TNT Explosions: 100
-[20:41:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:41:49] [Server thread/INFO]: Mob Spawn Range: 6
-[20:41:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:41:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:41:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:41:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:41:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:41:49] [Server thread/INFO]: View Distance: 10
-[20:41:49] [Server thread/INFO]: Simulation Distance: 10
-[20:41:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:41:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:41:50] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:41:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[20:41:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[20:41:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[20:41:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[20:41:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:41:50] [Server thread/INFO]: Max TNT Explosions: 100
-[20:41:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:41:50] [Server thread/INFO]: Mob Spawn Range: 6
-[20:41:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:41:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:41:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:41:50] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:41:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:41:50] [Server thread/INFO]: View Distance: 10
-[20:41:50] [Server thread/INFO]: Simulation Distance: 10
-[20:41:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:41:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:41:51] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:41:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[20:41:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[20:41:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[20:41:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[20:41:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:41:51] [Server thread/INFO]: Max TNT Explosions: 100
-[20:41:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:41:51] [Server thread/INFO]: Mob Spawn Range: 6
-[20:41:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:41:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:41:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:41:51] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:41:51] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:41:51] [Server thread/INFO]: View Distance: 10
-[20:41:51] [Server thread/INFO]: Simulation Distance: 10
-[20:41:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:41:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:03] [Worker-Main-2/INFO]: Preparing spawn area: 6%
-[20:42:03] [Worker-Main-1/INFO]: Preparing spawn area: 23%
-[20:42:04] [Worker-Main-1/INFO]: Preparing spawn area: 44%
-[20:42:04] [Worker-Main-1/INFO]: Preparing spawn area: 65%
-[20:42:05] [Worker-Main-3/INFO]: Preparing spawn area: 85%
-[20:42:05] [Server thread/INFO]: Time elapsed: 14414 ms
-[20:42:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:42:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:17] [Worker-Main-3/INFO]: Preparing spawn area: 20%
-[20:42:18] [Worker-Main-1/INFO]: Preparing spawn area: 64%
-[20:42:18] [Server thread/INFO]: Time elapsed: 12995 ms
-[20:42:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:42:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:42:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:42:24] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:42:25] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[20:42:25] [Worker-Main-3/INFO]: Preparing spawn area: 43%
-[20:42:26] [Worker-Main-2/INFO]: Preparing spawn area: 96%
-[20:42:26] [Server thread/INFO]: Time elapsed: 7533 ms
-[20:42:26] [Server thread/INFO]: [MobArena] Enabling MobArena v0.107
-[20:42:26] [Server thread/INFO]: [MobArena] Vault was not found. Economy rewards will not work.
-[20:42:26] [Server thread/INFO]: [MobArena] Loaded arena 'desert'
-[20:42:26] [Server thread/INFO]: [MobArena] 2 arena sign(s) loaded.
-[20:42:26] [Server thread/INFO]: [MobArena] Loaded 3 sign templates.
-[20:42:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[20:42:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[20:42:27] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:42:28] [Server thread/INFO]: [WarpSystem] Enabling WarpSystem v5.1.6-free
-[20:42:28] [Server thread/INFO]: [WarpSystem]  
-[20:42:28] [Server thread/INFO]: [WarpSystem] __________________________________________________________
-[20:42:28] [Server thread/INFO]: [WarpSystem]  
-[20:42:28] [Server thread/INFO]: [WarpSystem]                        WarpSystem [5.1.6-free]
-[20:42:28] [Server thread/INFO]: [WarpSystem]  
-[20:42:28] [Server thread/INFO]: [WarpSystem] Status:
-[20:42:28] [Server thread/INFO]: [WarpSystem]  
-[20:42:28] [Server thread/INFO]: [WarpSystem] MC-Version: 1.19.4 (R0.1-SNAPSHOT, Spigot)
-[20:42:28] [Server thread/INFO]: [WarpSystem]  
-[20:42:28] [Server thread/INFO]: [WarpSystem] Loading features
-[20:42:28] [Server thread/INFO]: [WarpSystem]   > Loading WarpSigns
-[20:42:28] [Server thread/INFO]: [WarpSystem]     ...got 0 WarpSign(s)
-[20:42:28] [Server thread/INFO]: [WarpSystem]   > Loading SimpleWarps
-[20:42:28] [Server thread/INFO]: [WarpSystem]     ...got 5 SimpleWarp(s)
-[20:42:29] [Server thread/INFO]: [WarpSystem]   > Loading Portals
-[20:42:29] [Server thread/INFO]: [WarpSystem]     ...got 0 Portal(s)
-[20:42:29] [Server thread/INFO]: [WarpSystem]   > Loading Icons
-[20:42:29] [Server thread/INFO]: [WarpSystem]     > Loading background
-[20:42:29] [Server thread/INFO]: [WarpSystem]       ...got 1 background
-[20:42:29] [Server thread/INFO]: [WarpSystem]     > Loading Icons
-[20:42:29] [Server thread/INFO]: [WarpSystem]       ...got 0 Icons
-[20:42:29] [Server thread/INFO]: [WarpSystem]   > Loading RandomTeleporters
-[20:42:29] [Server thread/INFO]: [WarpSystem]     ...got 3 WorldOption(s)
-[20:42:29] [Server thread/INFO]: [WarpSystem]     ...preloading is disabled
-[20:42:29] [Server thread/INFO]: [WarpSystem]     ...got 0 InteractBlock(s)
-[20:42:29] [Server thread/INFO]: [WarpSystem]   > Loading PlayerWarps [Bungee: false; TimeDependent: true]
-[20:42:29] [Server thread/INFO]: [WarpSystem]     ...got 6 Class(es)
-[20:42:29] [Server thread/INFO]: [WarpSystem]     ...got 0 PlayerWarp(s)
-[20:42:29] [Server thread/INFO]: [WarpSystem]   > Loading Shortcuts
-[20:42:29] [Server thread/INFO]: [WarpSystem]     ...got 0 Shortcut(s)
-[20:42:29] [Server thread/INFO]: [WarpSystem]   > Loading Animations
-[20:42:29] [Server thread/INFO]: [WarpSystem]     ...got 0 animation(s)
-[20:42:29] [Server thread/INFO]: [WarpSystem]  
-[20:42:29] [Server thread/INFO]: [WarpSystem] Loading TeleportManager
-[20:42:29] [Server thread/INFO]: [WarpSystem] Starting AutoSaver
-[20:42:29] [Server thread/INFO]: [WarpSystem]  
-[20:42:29] [Server thread/INFO]: [WarpSystem] Finished (1518ms)
-[20:42:29] [Server thread/INFO]: [WarpSystem]  
-[20:42:29] [Server thread/INFO]: [WarpSystem] __________________________________________________________
-[20:42:29] [Server thread/INFO]: [WarpSystem]  
-[20:42:29] [Server thread/INFO]: [WarpSystem] ====================================================
-[20:42:29] [Server thread/INFO]: [WarpSystem]  WarpSystem works better if you use Paper 
-[20:42:29] [Server thread/INFO]: [WarpSystem]  as your server software. 
-[20:42:29] [Server thread/INFO]: [WarpSystem] ====================================================
-[20:42:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:42:29] [Server thread/INFO]: Done (40.211s)! For help, type "help"
-[20:42:41] [User Authenticator #1/INFO]: UUID of player McOptimusFine is e7930417-9a00-4d09-8198-5a0ee6de5610
-[20:42:42] [Server thread/INFO]: McOptimusFine joined the game
-[20:42:42] [Server thread/INFO]: McOptimusFine[/172.17.0.1:61170] logged in with entity id 7 at ([world]1063.1824492388557, 38.0, 840.2970455375286)
-[20:47:53] [User Authenticator #2/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[20:47:54] [Server thread/INFO]: kflypppw joined the game
-[20:47:54] [Server thread/INFO]: kflypppw[/172.17.0.1:61184] logged in with entity id 142 at ([world]1040.699999988079, 34.0625, 314.69999998807907)
-[20:48:15] [Server thread/INFO]: kflypppw issued server command: /ascend
-[20:48:39] [User Authenticator #3/INFO]: UUID of player hemogoblino is d92893ad-f6b9-482f-bbe5-387c2ca86d85
-[20:48:39] [Server thread/INFO]: hemogoblino joined the game
-[20:48:39] [Server thread/INFO]: hemogoblino[/172.17.0.1:61190] logged in with entity id 191 at ([world]1037.3591516698195, 35.0625, 319.29846622393836)
-[20:49:01] [Server thread/INFO]: kflypppw issued server command: /warp
-[20:49:02] [Server thread/INFO]: McOptimusFine issued server command: //sel cuboid
-[20:49:06] [Server thread/INFO]: kflypppw issued server command: /warp suburb
-[20:49:30] [Server thread/INFO]: McOptimusFine issued server command: //set sandstone_wall
-[20:50:07] [Server thread/INFO]: McOptimusFine issued server command: //undo
-[20:50:59] [Server thread/INFO]: McOptimusFine issued server command: //walls sandstone_wall
-[20:51:09] [Server thread/INFO]: kflypppw issued server command: /warp city
-[20:51:12] [Server thread/INFO]: McOptimusFine issued server command: //undo
-[20:51:17] [Server thread/INFO]: McOptimusFine issued server command: //walls sandstone
-[20:51:33] [Server thread/INFO]: McOptimusFine issued server command: //set sandstone
-[20:51:33] [Server thread/INFO]: kflypppw issued server command: /time set day
-[20:51:33] [Server thread/INFO]: [kflypppw: Set the time to 1000]
-[20:52:08] [Server thread/INFO]: McOptimusFine issued server command: //drain
-[20:52:13] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[20:52:13] [Server thread/INFO]: kflypppw left the game
-[20:52:22] [Server thread/INFO]: McOptimusFine issued server command: //drain
-[20:52:47] [Server thread/INFO]: McOptimusFine issued server command: //drain 2
-[20:52:56] [Server thread/INFO]: McOptimusFine issued server command: //drain 2
-[20:53:01] [Server thread/INFO]: McOptimusFine issued server command: //drain 5
-[20:53:51] [Server thread/INFO]: McOptimusFine issued server command: //set glowstone
-[20:53:56] [Server thread/INFO]: McOptimusFine issued server command: //set glowstone
-[20:54:01] [Server thread/INFO]: McOptimusFine issued server command: //set glowstone
-[20:54:06] [Server thread/INFO]: McOptimusFine issued server command: //set glowstone
-[20:54:35] [Server thread/INFO]: hemogoblino issued server command: /gamemode creative
-[20:55:00] [User Authenticator #4/INFO]: UUID of player epicpanda72 is 775a69d7-c4a6-4fd9-a830-f873eb22fff4
-[20:55:01] [Server thread/INFO]: epicpanda72 joined the game
-[20:55:01] [Server thread/INFO]: epicpanda72[/172.17.0.1:61200] logged in with entity id 19276 at ([world]1072.7583317888862, 38.0, 302.7367266730586)
-[20:55:35] [Server thread/INFO]: hemogoblino issued server command: /gamemode creative
-[20:55:40] [Server thread/INFO]: McOptimusFine issued server command: /op hemogoblino
-[20:55:40] [Server thread/INFO]: [McOptimusFine: Made hemogoblino a server operator]
-[20:56:34] [Server thread/INFO]: McOptimusFine issued server command: /data merge block 1087 28 858 {Lock:"Pumpkin"}
-[20:56:34] [Server thread/INFO]: [McOptimusFine: Modified block data of 1087, 28, 858]
-[20:57:25] [Server thread/INFO]: epicpanda72 issued server command: /warp
-[20:57:31] [Server thread/INFO]: epicpanda72 issued server command: /warp city
-[20:58:32] [Server thread/INFO]: epicpanda72 issued server command: /warp
-[20:58:36] [Server thread/INFO]: epicpanda72 issued server command: /warp suburb
-[20:59:21] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene1
-[20:59:24] [Server thread/INFO]: McOptimusFine issued server command: /give
-[20:59:33] [Server thread/INFO]: McOptimusFine issued server command: /give McOptimusFine minecraft:spawner
-[20:59:33] [Server thread/INFO]: [McOptimusFine: Gave 1 [Monster Spawner] to McOptimusFine]
-[20:59:57] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene2
-[21:00:15] [Server thread/INFO]: epicpanda72 issued server command: /warp s
-[21:00:22] [Server thread/INFO]: epicpanda72 issued server command: /warp spawn
-[21:01:41] [Server thread/INFO]: epicpanda72 lost connection: Timed out
-[21:01:41] [Server thread/INFO]: epicpanda72 left the game.
-[21:01:41] [Server thread/WARN]: handleDisconnection() called twice
-[21:01:52] [User Authenticator #5/INFO]: UUID of player epicpanda72 is 775a69d7-c4a6-4fd9-a830-f873eb22fff4
-[21:01:52] [Server thread/INFO]: epicpanda72 joined the game
-[21:01:53] [Server thread/INFO]: epicpanda72[/172.17.0.1:61204] logged in with entity id 131637 at ([world]1056.699999988079, 35.0625, 313.500612836822)
-[21:03:36] [Server thread/INFO]: hemogoblino has made the advancement [Sweet Dreams]
-[21:04:10] [Server thread/INFO]: McOptimusFine issued server command: /rg flag island use-anvil allow
-[21:04:27] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[21:04:30] [Server thread/INFO]: McOptimusFine issued server command: /rg flag island chest-access allow
-[21:04:51] [Server thread/INFO]: McOptimusFine issued server command: /rg flag island mob-damage allow
-[21:04:57] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[21:04:58] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene3
-[21:05:02] [Server thread/INFO]: McOptimusFine issued server command: /rg flag island mob-spawning allow
-[21:05:16] [Server thread/INFO]: McOptimusFine issued server command: /setwarp challenge1
-[21:05:24] [Server thread/INFO]: McOptimusFine issued server command: /spawn
-[21:05:27] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[21:05:30] [Server thread/INFO]: [MobArena] McOptimusFine destroyed join sign for 'sand' at (1041,36,319) in 'world'.
-[21:05:59] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene4
-[21:06:14] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[21:06:29] [Server thread/INFO]: epicpanda72 issued server command: /warp scene2
-[21:07:03] [Server thread/WARN]: hemogoblino moved too quickly! 0.8129906065348678,0.2870489963273357,-10.093234045743486
-[21:09:04] [Server thread/INFO]: epicpanda72 issued server command: /deletewarps s
-[21:09:12] [Server thread/INFO]: epicpanda72 issued server command: /deletewarps scene2
-[21:09:37] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene2
-[21:12:31] [Server thread/INFO]: McOptimusFine issued server command: /give McOptimusFine minecraft:experience_bottle
-[21:12:31] [Server thread/INFO]: [McOptimusFine: Gave 1 [Bottle o' Enchanting] to McOptimusFine]
-[21:12:39] [Server thread/INFO]: McOptimusFine issued server command: /give McOptimusFine minecraft:experience_bottle
-[21:12:39] [Server thread/INFO]: [McOptimusFine: Gave 1 [Bottle o' Enchanting] to McOptimusFine]
-[21:12:49] [Server thread/INFO]: McOptimusFine issued server command: /give McOptimusFine minecraft:experience_bottle 10
-[21:12:49] [Server thread/INFO]: [McOptimusFine: Gave 10 [Bottle o' Enchanting] to McOptimusFine]
-[21:13:47] [Server thread/INFO]: hemogoblino issued server command: /warp arena
-[21:14:00] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[21:15:09] [Server thread/INFO]: hemogoblino has made the advancement [Take Aim]
-[21:15:33] [Server thread/WARN]: hemogoblino moved too quickly! 4.0170882000427355,4.452539795678646,8.869733809126728
-[21:15:47] [Server thread/INFO]: McOptimusFine issued server command: /deop hemogoblino
-[21:15:48] [Server thread/INFO]: [McOptimusFine: Made hemogoblino no longer a server operator]
-[21:15:55] [Server thread/WARN]: hemogoblino moved too quickly! -6.895255951408899,1.1126548666129281,16.809282274375278
-[21:15:58] [Server thread/INFO]: McOptimusFine issued server command: /gamemode survival hemogoblino
-[21:15:58] [Server thread/INFO]: [McOptimusFine: Set hemogoblino's game mode to Survival Mode]
-[21:16:06] [Server thread/INFO]: McOptimusFine issued server command: /spawn
-[21:16:10] [Server thread/INFO]: McOptimusFine issued server command: /tphere hemogoblino
-[21:16:42] [Server thread/INFO]: McOptimusFine issued server command: /tp hemogoblino
-[21:17:49] [Server thread/INFO]: McOptimusFine issued server command: /rg flag island damage-animals allow
-[21:17:57] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[21:22:17] [Server thread/INFO]: epicpanda72 lost connection: Timed out
-[21:22:18] [Server thread/INFO]: epicpanda72 left the game.
-[21:22:18] [Server thread/WARN]: handleDisconnection() called twice
-[21:22:24] [Server thread/INFO]: hemogoblino lost connection: Timed out
-[21:22:24] [Server thread/INFO]: hemogoblino left the game.
-[21:22:24] [Server thread/WARN]: handleDisconnection() called twice
-[21:23:02] [User Authenticator #6/INFO]: Disconnecting com.mojang.authlib.GameProfile@2d98bea8[id=<null>,name=epicpanda72,properties={},legacy=false] (/172.17.0.1:61218): Authentication servers are down. Please try again later, sorry!
-[21:23:02] [User Authenticator #6/ERROR]: Couldn't verify username because servers are unavailable
-[21:23:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@2d98bea8[id=<null>,name=epicpanda72,properties={},legacy=false] (/172.17.0.1:61218) lost connection: Authentication servers are down. Please try again later, sorry!
-[21:23:04] [Server thread/INFO]: McOptimusFine issued server command: /give McOptimusFine paper 64
-[21:23:04] [Server thread/INFO]: [McOptimusFine: Gave 64 [Paper] to McOptimusFine]
-[21:23:14] [Server thread/INFO]: McOptimusFine issued server command: /give McOptimusFine minecraft:experience_bottle 10
-[21:23:14] [Server thread/INFO]: [McOptimusFine: Gave 10 [Bottle o' Enchanting] to McOptimusFine]
-[21:24:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@19023a9[id=<null>,name=hemogoblino,properties={},legacy=false] (/172.17.0.1:61220) lost connection: Timed out
-[21:25:01] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4f0312d3[id=<null>,name=epicpanda72,properties={},legacy=false] (/172.17.0.1:61222): Took too long to log in
-[21:25:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@4f0312d3[id=<null>,name=epicpanda72,properties={},legacy=false] (/172.17.0.1:61222) lost connection: Took too long to log in
-[21:25:18] [User Authenticator #7/INFO]: UUID of player epicpanda72 is 775a69d7-c4a6-4fd9-a830-f873eb22fff4
-[21:25:18] [Server thread/INFO]: epicpanda72 joined the game
-[21:25:18] [Server thread/INFO]: epicpanda72[/172.17.0.1:61224] logged in with entity id 3202433 at ([world]640.3000000119209, 37.0, 51.542523243691384)
-[21:25:34] [User Authenticator #8/INFO]: UUID of player hemogoblino is d92893ad-f6b9-482f-bbe5-387c2ca86d85
-[21:25:34] [Server thread/INFO]: hemogoblino joined the game
-[21:25:34] [Server thread/INFO]: hemogoblino[/172.17.0.1:61230] logged in with entity id 3251793 at ([world]1085.6366986233415, 28.0, 858.6014652543939)
-[21:26:36] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[21:26:42] [Server thread/INFO]: hemogoblino issued server command: /spawn
-[21:26:44] [Server thread/INFO]: McOptimusFine issued server command: /op hemogoblino
-[21:26:44] [Server thread/INFO]: [McOptimusFine: Made hemogoblino a server operator]
-[21:26:49] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[21:27:04] [Server thread/INFO]: McOptimusFine issued server command: /gamemode creative hemogoblino
-[21:27:04] [Server thread/INFO]: [McOptimusFine: Set hemogoblino's game mode to Creative Mode]
-[21:27:12] [Server thread/INFO]: McOptimusFine issued server command: /kill hemogoblino
-[21:27:12] [Server thread/INFO]: [McOptimusFine: Killed hemogoblino]
-[21:27:14] [Server thread/INFO]: epicpanda72 issued server command: /warp scene2
-[21:27:30] [User Authenticator #9/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[21:27:30] [Server thread/INFO]: kflypppw joined the game
-[21:27:30] [Server thread/INFO]: kflypppw[/172.17.0.1:61236] logged in with entity id 3542830 at ([world]1628.9340544238553, 93.44522920750705, 1240.2861043791963)
-[21:27:41] [Server thread/INFO]: kflypppw issued server command: /time set day
-[21:27:41] [Server thread/INFO]: [kflypppw: Set the time to 1000]
-[21:27:45] [Server thread/INFO]: kflypppw issued server command: /spawn
-[21:28:00] [Server thread/INFO]: epicpanda72 issued server command: /deletewarps sc
-[21:28:05] [Server thread/INFO]: epicpanda72 issued server command: /deletewarps scene2
-[21:28:18] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene2
-[21:28:24] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[21:28:27] [Server thread/INFO]: epicpanda72 issued server command: /warp scene2
-[21:28:34] [Server thread/INFO]: epicpanda72 issued server command: /warp scene3
-[21:28:47] [Server thread/INFO]: epicpanda72 issued server command: /warp scene4
-[21:28:53] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[21:29:28] [Server thread/INFO]: McOptimusFine issued server command: //set sandstone
-[21:29:33] [Server thread/INFO]: McOptimusFine issued server command: //set sandstone
-[21:29:37] [Server thread/INFO]: McOptimusFine issued server command: //set sandstone
-[21:29:41] [Server thread/INFO]: McOptimusFine issued server command: //set sandstone
-[21:30:50] [Server thread/INFO]: epicpanda72 issued server command: /warp city
-[21:31:09] [Server thread/INFO]: kflypppw issued server command: /warp suburb
-[21:31:10] [Server thread/INFO]: McOptimusFine issued server command: /warp arena
-[21:31:18] [Server thread/INFO]: hemogoblino issued server command: /warp city
-[21:31:25] [Server thread/INFO]: epicpanda72 issued server command: /warp scene3
-[21:31:30] [Server thread/INFO]: kflypppw issued server command: /spawn city
-[21:31:34] [Server thread/INFO]: kflypppw issued server command: /warp city
-[21:31:50] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[21:32:16] [Server thread/WARN]: hemogoblino moved too quickly! 11.52047983650823,3.0206661862223143,2.0549584051466354
-[21:32:18] [Server thread/INFO]: McOptimusFine issued server command: /spawn
-[21:32:20] [Server thread/INFO]: McOptimusFine issued server command: /rg save
-[21:33:49] [Server thread/INFO]: McOptimusFine issued server command: /warp arena
-[21:33:56] [Server thread/INFO]: McOptimusFine issued server command: /warps
-[21:33:56] [Server thread/INFO]: kflypppw issued server command: /warp scene1
-[21:34:00] [Server thread/INFO]: McOptimusFine issued server command: /warp
-[21:34:11] [Server thread/INFO]: McOptimusFine issued server command: /delwarp arena
-[21:34:28] [Server thread/INFO]: McOptimusFine issued server command: /tp hemogoblino
-[21:34:53] [Server thread/INFO]: McOptimusFine issued server command: /tp hemogoblino
-[21:35:10] [Server thread/INFO]: McOptimusFine issued server command: /kill hemogoblino
-[21:35:10] [Server thread/INFO]: hemogoblino fell out of the world
-[21:35:10] [Server thread/INFO]: [McOptimusFine: Killed hemogoblino]
-[21:35:16] [Server thread/INFO]: McOptimusFine issued server command: /tphere hemogoblino
-[21:35:26] [Server thread/INFO]: kflypppw issued server command: /warp scene2
-[21:35:38] [Server thread/INFO]: kflypppw issued server command: /warp 3
-[21:35:41] [Server thread/INFO]: kflypppw issued server command: /warp scene3
-[21:35:53] [Server thread/INFO]: kflypppw issued server command: /warp scene4
-[21:35:56] [Server thread/INFO]: McOptimusFine issued server command: /warp challenge1
-[21:35:58] [Server thread/INFO]: kflypppw issued server command: /warps
-[21:36:06] [Server thread/INFO]: kflypppw issued server command: /warp scene1
-[21:36:06] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[21:36:07] [Server thread/INFO]: McOptimusFine issued server command: /warp scene1
-[21:36:08] [Server thread/INFO]: hemogoblino issued server command: /warp scene1
-[21:38:12] [Server thread/WARN]: kflypppw moved too quickly! 0.011645567797131662,-0.31587952745906733,16.393967540113806
-[21:39:48] [Server thread/INFO]: McOptimusFine issued server command: /warps
-[21:39:58] [Server thread/WARN]: hemogoblino moved too quickly! 8.891324415703366,0.4375,4.792941067865968
-[21:39:58] [Server thread/WARN]: kflypppw moved too quickly! 4.148996999599831,3.4133659580315765,-8.538764823119834
-[21:40:01] [Server thread/INFO]: McOptimusFine issued server command: /spawn
-[21:40:04] [Server thread/INFO]: McOptimusFine issued server command: /tp hemogoblino
-[21:40:20] [Server thread/INFO]: epicpanda72 issued server command: /warp city
-[21:42:04] [Server thread/INFO]: McOptimusFine issued server command: /tp epicpanda72
-[21:42:09] [Server thread/INFO]: McOptimusFine issued server command: /spawn
-[21:43:02] [Server thread/INFO]: McOptimusFine issued server command: /gamemode survival
-[21:43:02] [Server thread/INFO]: [McOptimusFine: Set own game mode to Survival Mode]
-[21:43:06] [Server thread/INFO]: McOptimusFine issued server command: /deop McOptimusFine
-[21:43:06] [Server thread/INFO]: [McOptimusFine: Made McOptimusFine no longer a server operator]
-[21:44:24] [Server thread/INFO]: hemogoblino issued server command: /tp McOptimusFine
-[21:45:06] [Server thread/INFO]: Made McOptimusFine a server operator
-[21:45:18] [Server thread/INFO]: McOptimusFine issued server command: /gamemode creative
-[21:45:18] [Server thread/INFO]: [McOptimusFine: Set own game mode to Creative Mode]
-[21:45:20] [Server thread/WARN]: epicpanda72 moved too quickly! 0.0,19.500000774860382,-0.03687196526971093
-[21:47:04] [Server thread/INFO]: McOptimusFine lost connection: Disconnected
-[21:47:04] [Server thread/INFO]: McOptimusFine left the game
-[21:47:33] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[21:47:33] [Server thread/INFO]: kflypppw left the game
-[21:47:35] [Server thread/INFO]: epicpanda72 lost connection: Disconnected
-[21:47:35] [Server thread/INFO]: epicpanda72 left the game
-[21:47:41] [Server thread/INFO]: hemogoblino lost connection: Disconnected
-[21:47:41] [Server thread/INFO]: hemogoblino left the game
-[21:47:42] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
-[21:47:42] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
-[21:47:42] [Server thread/INFO]: [0;37;22m[0;33;22mAliases: [0;37;1mLists command aliases[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22mMobArena: [0;37;1mAll commands for MobArena[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22mWarpSystem: [0;37;1mAll commands for WarpSystem[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22mWorldEdit: [0;37;1mAll commands for WorldEdit[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22mWorldGuard: [0;37;1mAll commands for WorldGuard[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/.s: [0;37;1mExecute last CraftScript[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//: [0;37;1mToggle the super pickaxe function[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//calculate: [0;37;1mEvaluate a mathematical expression[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//center: [0;37;1mSet the center block(s)[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//chunk: [0;37;1mSet the selection to your current chunk.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//contract: [0;37;1mContract the selection area[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//copy: [0;37;1mCopy the selection to the clipboard[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//count: [0;37;1mCounts the number of blocks matching a mask[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//curve: [0;37;1mDraws a spline through selected points[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//cut: [0;37;1mCut the selection to the clipboard[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//cyl: [0;37;1mGenerates a cylinder.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//deform: [0;37;1mDeforms a selected region with an expression[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//distr: [0;37;1mGet the distribution of blocks in the selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//drain: [0;37;1mDrain a pool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//drawsel: [0;37;1mToggle drawing the current selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//expand: [0;37;1mExpand the selection area[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//faces: [0;37;1mBuild the walls, ceiling, and floor of a selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//fast: [0;37;1mToggle fast mode[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//fill: [0;37;1mFill a hole[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//fillr: [0;37;1mFill a hole recursively[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//flip: [0;37;1mFlip the contents of the clipboard across the origin[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//flora: [0;37;1mMake flora within the region[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//forest: [0;37;1mMake a forest within the region[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//generate: [0;37;1mGenerates a shape according to a formula.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//generatebiome: [0;37;1mSets biome according to a formula.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//hcyl: [0;37;1mGenerates a hollow cylinder.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//help: [0;37;1mDisplays help for WorldEdit commands[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//hollow: [0;37;1mHollows out the object contained in this selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//hpos1: [0;37;1mSet position 1 to targeted block[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//hpos2: [0;37;1mSet position 2 to targeted block[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//hpyramid: [0;37;1mGenerate a hollow pyramid[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//hsphere: [0;37;1mGenerates a hollow sphere.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//inset: [0;37;1mInset the selection area[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//limit: [0;37;1mModify block change limit[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//line: [0;37;1mDraws line segments between cuboid selection corners or convex polyhedral selection vertices[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//move: [0;37;1mMove the contents of the selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//naturalize: [0;37;1m3 layers of dirt on top then rock below[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//outset: [0;37;1mOutset the selection area[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//overlay: [0;37;1mSet a block on top of blocks in the region[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//paste: [0;37;1mPaste the clipboard's contents[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//perf: [0;37;1mToggle side effects for performance[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//pos1: [0;37;1mSet position 1[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//pos2: [0;37;1mSet position 2[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//pyramid: [0;37;1mGenerate a filled pyramid[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//regen: [0;37;1mRegenerates the contents of the selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//reorder: [0;37;1mSets the reorder mode of WorldEdit[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//replace: [0;37;1mReplace all blocks in the selection with another[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//rotate: [0;37;1mRotate the contents of the clipboard[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//sel: [0;37;1mChoose a region selector[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//set: [0;37;1mSets all the blocks in the region[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//setbiome: [0;37;1mSets the biome of your current block or region.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//shift: [0;37;1mShift the selection area[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//size: [0;37;1mGet information about the selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//smooth: [0;37;1mSmooth the elevation in the selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//sphere: [0;37;1mGenerates a filled sphere.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//stack: [0;37;1mRepeat the contents of the selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//timeout: [0;37;1mModify evaluation timeout time.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//walls: [0;37;1mBuild the four sides of the selection[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//wand: [0;37;1mGet the wand item[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//watchdog: [0;37;1mChanges watchdog hook state.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m//world: [0;37;1mSets the world override[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/allowfire: [0;37;1m[<world>] - Allows all fire spread temporarily[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/ascend: [0;37;1mGo up a floor[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/attribute: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/back: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/ban: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/biomeinfo: [0;37;1mGet the biome of the targeted block.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/biomelist: [0;37;1mGets all biomes available.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/brush: [0;37;1mBrushing commands[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/butcher: [0;37;1mKill all or nearby mobs[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/ceil: [0;37;1mGo to the ceiling[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/chunkinfo: [0;37;1mGet information about the chunk you're inside[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/clear: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/clearclipboard: [0;37;1mClear your clipboard[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/clearhistory: [0;37;1mClear your history[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/clone: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/cs: [0;37;1mExecute a CraftScript[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/cycler: [0;37;1mBlock data cycler tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/damage: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/data: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/debug: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/delchunks: [0;37;1mDelete chunks that your selection includes[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/deltree: [0;37;1mFloating tree remover tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/delwarp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/deop: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/descend: [0;37;1mGo down a floor[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/editwarp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/effect: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/execute: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/experience: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/extinguish: [0;37;1mExtinguish nearby fire[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/farwand: [0;37;1mWand at a distance tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/fill: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/fillbiome: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/fixlava: [0;37;1mFix lava to be stationary[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/fixwater: [0;37;1mFix water to be stationary[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/floodfill: [0;37;1mFlood fill tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/forestgen: [0;37;1mGenerate a forest[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/function: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/give: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/globalwarp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/globalwarps: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/gmask: [0;37;1mSet the global mask[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/green: [0;37;1mConverts dirt to grass blocks in the area[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/halt-activity: [0;37;1m[confirm] - Attempts to cease as much activity in order to stop lag[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/help: [0;37;1mShows the help menu[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/info: [0;37;1mBlock information tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/item: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/jfr: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/jumpto: [0;37;1mTeleport to a location[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/kick: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/kill: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/list: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/listchunks: [0;37;1mList chunks that your selection includes[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/locate: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/loot: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/lrbuild: [0;37;1mLong-range building tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/ma: [0;37;1mBase command for MobArena[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/mask: [0;37;1mSet the brush mask[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/material: [0;37;1mSet the brush material[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/me: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:back: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:deletewarps: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:delwarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:editwarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:globalwarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:globalwarps: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:gwarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:gwarps: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:modifywarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:playerwarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:playerwarps: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:portals: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:pwarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:pwarps: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:randomtp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:rtp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:setspawn: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:setwarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:shortcut: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:shortcuts: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:spawn: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:teleport: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tempwarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tempwarps: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tpa: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tpaall: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tpaccept: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tpahere: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tpall: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tpatoggle: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tpdeny: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tphere: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:tptoggle: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:twarp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:twarps: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:warp: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:warps: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:warpsystem: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:ws: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/modifywarp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/msg: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/navwand: [0;37;1mNavigation wand tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/none: [0;37;1mUnbind a bound tool from your current item[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/op: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/particle: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/perf: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/place: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/playerwarp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/playerwarps: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/portals: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/pumpkins: [0;37;1mGenerate pumpkin patches[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/randomtp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/range: [0;37;1mSet the brush range[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/redo: [0;37;1mRedoes the last action (from history)[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/region: [0;37;1mRegion management commands[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/remove: [0;37;1mRemove all entities of a type[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/removeabove: [0;37;1mRemove blocks above your head.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/removebelow: [0;37;1mRemove blocks below you.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/removenear: [0;37;1mRemove blocks near you.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/repl: [0;37;1mBlock replacer tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/replacenear: [0;37;1mReplace nearby blocks[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/restart: [0;37;1mRestarts the server[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/restore: [0;37;1mRestore the selection from a snapshot[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/ride: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/say: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/schematic: [0;37;1mSchematic commands for saving/loading areas[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/searchitem: [0;37;1mSearch for an item[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/seed: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/selwand: [0;37;1mSelection wand tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/setspawn: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/setwarp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/shortcuts: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/size: [0;37;1mSet the brush size[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/snapshot: [0;37;1mSnapshot commands for restoring backups[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/snow: [0;37;1mSimulates snow[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/spawn: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/spectate: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/spigot: [0;37;1mSpigot related commands[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/stop: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/stopfire: [0;37;1m[<world>] - Disables all fire spread temporarily[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/summon: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/superpickaxe: [0;37;1mSuper-pickaxe commands[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tag: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/team: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tell: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tempwarps: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/thaw: [0;37;1mThaws the area[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/thru: [0;37;1mPass through walls[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/time: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/title: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tm: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/toggleeditwand: [0;37;1mRemind the user that the wand is now a tool and can be unbound with /tool none.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/toggleplace: [0;37;1mSwitch between your position and pos1 for placement[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tool: [0;37;1mBinds a tool to the item in your hand[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tpa: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tpaall: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tpaccept: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tpahere: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tpall: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tpatoggle: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tpdeny: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tphere: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tptoggle: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tracemask: [0;37;1mSet the mask used to stop tool traces[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/tree: [0;37;1mTree generator tool[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/undo: [0;37;1mUndoes the last action (from history)[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/unstuck: [0;37;1mEscape from being stuck inside a block[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/up: [0;37;1mGo upwards some distance[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/w: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/warp: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/warps: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/warpsystem: [0;37;1mA WarpSystem-Command[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/weather: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/worldedit: [0;37;1mWorldEdit commands[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/worldguard: [0;37;1mWorldGuard commands[m
-[21:47:42] [Server thread/INFO]: [0;37;1m[0;33;22m/xp: [0;37;1mA Mojang provided command.[m
-[21:47:55] [Server thread/INFO]: Stopping the server
-[21:47:55] [Server thread/INFO]: Stopping server
-[21:47:55] [Server thread/INFO]: [WarpSystem] Disabling WarpSystem v5.1.6-free
-[21:47:55] [Server thread/INFO]: [WarpSystem]  
-[21:47:55] [Server thread/INFO]: [WarpSystem] __________________________________________________________
-[21:47:55] [Server thread/INFO]: [WarpSystem]  
-[21:47:55] [Server thread/INFO]: [WarpSystem]                        WarpSystem [5.1.6-free]
-[21:47:55] [Server thread/INFO]: [WarpSystem]  
-[21:47:55] [Server thread/INFO]: [WarpSystem] Status:
-[21:47:55] [Server thread/INFO]: [WarpSystem]  
-[21:47:55] [Server thread/INFO]: [WarpSystem] MC-Version: v1_19_4
-[21:47:55] [Server thread/INFO]: [WarpSystem]  
-[21:47:55] [Server thread/INFO]: [WarpSystem] Saving options
-[21:47:55] [Server thread/INFO]: [WarpSystem] Saving features
-[21:47:55] [Server thread/INFO]: [WarpSystem]   > Saving WarpSigns
-[21:47:55] [Server thread/INFO]: [WarpSystem]     ...saved 5 WarpSign(s)
-[21:47:55] [Server thread/INFO]: [WarpSystem]   > Saving SimpleWarps
-[21:47:55] [Server thread/INFO]: [WarpSystem]     ...saved 9 SimpleWarp(s)
-[21:47:55] [Server thread/INFO]: [WarpSystem]   > Saving Portals
-[21:47:55] [Server thread/INFO]: [WarpSystem]     ...saved 0 Portal(s)
-[21:47:55] [Server thread/INFO]: [WarpSystem]   > Saving Icons
-[21:47:55] [Server thread/INFO]: [WarpSystem]     > Saving background
-[21:47:55] [Server thread/INFO]: [WarpSystem]       ...saved 1 background
-[21:47:55] [Server thread/INFO]: [WarpSystem]     > Saving Icons
-[21:47:55] [Server thread/INFO]: [WarpSystem]       ...saved 0 Icon(s)
-[21:47:55] [Server thread/INFO]: [WarpSystem]   > Saving RandomTeleporters
-[21:47:55] [Server thread/INFO]: [WarpSystem]     ...saved 0 InteractBlock(s)
-[21:47:55] [Server thread/INFO]: [WarpSystem]   > Saving PlayerWarps...
-[21:47:55] [Server thread/INFO]: [WarpSystem]     ...saved 0 PlayerWarp(s)
-[21:47:55] [Server thread/INFO]: [WarpSystem]   > Saving Shortcuts
-[21:47:55] [Server thread/INFO]: [WarpSystem]     ...saved 0 Shortcut(s)
-[21:47:55] [Server thread/INFO]: [WarpSystem]   > Saving Animations
-[21:47:55] [Server thread/INFO]: [WarpSystem]     ...saved 0 animation(s)
-[21:47:55] [Server thread/INFO]: [WarpSystem]  
-[21:47:55] [Server thread/INFO]: [WarpSystem] Finished (270ms)
-[21:47:55] [Server thread/INFO]: [WarpSystem]  
-[21:47:55] [Server thread/INFO]: [WarpSystem] __________________________________________________________
-[21:47:55] [Server thread/INFO]: [WarpSystem]  
-[21:47:55] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
-[21:47:55] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[21:47:55] [Server thread/INFO]: [MobArena] Disabling MobArena v0.107
-[21:47:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
-[21:47:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:47:56] [Server thread/INFO]: Saving players
-[21:47:56] [Server thread/INFO]: Saving worlds
-[21:48:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:48:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:48:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:48:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:48:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:48:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:48:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:09:01] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:09:02] [ServerMain/INFO]: Loaded 7 recipes
+[01:09:03] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[01:09:03] [Server thread/INFO]: Loading properties
+[01:09:03] [Server thread/INFO]: This server is running CraftBukkit version 3749-Spigot-7da74da-d9324b4 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT)
+[01:09:03] [Server thread/INFO]: Debug logging is disabled
+[01:09:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:09:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:09:03] [Server thread/INFO]: Default game type: SURVIVAL
+[01:09:03] [Server thread/INFO]: Generating keypair
+[01:09:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:09:04] [Server thread/INFO]: Using default channel type
+[01:09:04] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.14+6360-094b734
+[01:09:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4389cb3c]
+[01:09:05] [Server thread/INFO]: [MobArena] Loading MobArena v0.107
+[01:09:05] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
+[01:09:05] [Server thread/INFO]: [WarpSystem] Loading WarpSystem v5.1.6-free
+[01:09:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
+[01:09:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:09:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:09:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[01:09:06] [Server thread/INFO]: [WorldEdit] ====================================================
+[01:09:06] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[01:09:06] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[01:09:06] [Server thread/INFO]: [WorldEdit]   
+[01:09:06] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[01:09:06] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[01:09:06] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[01:09:06] [Server thread/INFO]: [WorldEdit]   
+[01:09:06] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[01:09:06] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[01:09:06] [Server thread/INFO]: [WorldEdit]   
+[01:09:06] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[01:09:06] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[01:09:06] [Server thread/INFO]: [WorldEdit]   
+[01:09:06] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[01:09:06] [Server thread/INFO]: [WorldEdit] ====================================================
+[01:09:06] [Server thread/INFO]: Preparing level "world"
+[01:09:07] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:09:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:09:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:09:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:09:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:09:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:09:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:09:07] [Server thread/INFO]: Max TNT Explosions: 100
+[01:09:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:09:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:09:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:09:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:09:07] [Server thread/INFO]: Simulation Distance: 10
+[01:09:07] [Server thread/INFO]: View Distance: 10
+[01:09:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:09:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:09:07] [Server thread/INFO]: Mob Spawn Range: 6
+[01:09:07] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:09:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:09:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:09:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:09:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:09:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:09:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:09:07] [Server thread/INFO]: Max TNT Explosions: 100
+[01:09:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:09:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:09:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:09:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:09:07] [Server thread/INFO]: Simulation Distance: 10
+[01:09:07] [Server thread/INFO]: View Distance: 10
+[01:09:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:09:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:09:07] [Server thread/INFO]: Mob Spawn Range: 6
+[01:09:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:09:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:09:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:09:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:09:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01:09:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:09:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:09:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:09:07] [Server thread/INFO]: Max TNT Explosions: 100
+[01:09:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:09:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:09:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:09:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:09:07] [Server thread/INFO]: Simulation Distance: 10
+[01:09:07] [Server thread/INFO]: View Distance: 10
+[01:09:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:09:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:09:07] [Server thread/INFO]: Mob Spawn Range: 6
+[01:09:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:09:10] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[01:09:10] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[01:09:10] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[01:09:10] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[01:09:10] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[01:09:10] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[01:09:10] [Worker-Main-11/INFO]: Preparing spawn area: 88%
+[01:09:10] [Server thread/INFO]: Time elapsed: 3061 ms
+[01:09:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:09:12] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[01:09:12] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:09:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:09:12] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:09:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[01:09:13] [Worker-Main-1/INFO]: Preparing spawn area: 80%
+[01:09:13] [Server thread/INFO]: Time elapsed: 2565 ms
+[01:09:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:09:14] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:09:14] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[01:09:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:09:15] [Worker-Main-16/INFO]: Preparing spawn area: 4%
+[01:09:15] [Worker-Main-16/INFO]: Preparing spawn area: 98%
+[01:09:15] [Server thread/INFO]: Time elapsed: 2012 ms
+[01:09:15] [Server thread/INFO]: [MobArena] Enabling MobArena v0.107
+[01:09:15] [Server thread/INFO]: [MobArena] Vault was not found. Economy rewards will not work.
+[01:09:15] [Server thread/INFO]: [MobArena] Loaded arena 'desert'
+[01:09:15] [Server thread/INFO]: [MobArena] 1 arena sign(s) loaded.
+[01:09:15] [Server thread/INFO]: [MobArena] Loaded 3 sign templates.
+[01:09:15] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[01:09:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[01:09:16] [Server thread/INFO]: [WorldGuard] Loading region data...
+[01:09:16] [Server thread/INFO]: [WarpSystem] Enabling WarpSystem v5.1.6-free
+[01:09:16] [Server thread/INFO]: [WarpSystem]  
+[01:09:16] [Server thread/INFO]: [WarpSystem] __________________________________________________________
+[01:09:16] [Server thread/INFO]: [WarpSystem]  
+[01:09:16] [Server thread/INFO]: [WarpSystem]                        WarpSystem [5.1.6-free]
+[01:09:16] [Server thread/INFO]: [WarpSystem]  
+[01:09:16] [Server thread/INFO]: [WarpSystem] Status:
+[01:09:16] [Server thread/INFO]: [WarpSystem]  
+[01:09:16] [Server thread/INFO]: [WarpSystem] MC-Version: 1.19.4 (R0.1-SNAPSHOT, Spigot)
+[01:09:16] [Server thread/INFO]: [WarpSystem]  
+[01:09:16] [Server thread/INFO]: [WarpSystem] Loading features
+[01:09:16] [Server thread/INFO]: [WarpSystem]   > Loading RandomTeleporters
+[01:09:16] [Server thread/INFO]: [WarpSystem]     ...got 3 WorldOption(s)
+[01:09:16] [Server thread/INFO]: [WarpSystem]     ...preloading is disabled
+[01:09:16] [Server thread/INFO]: [WarpSystem]     ...got 0 InteractBlock(s)
+[01:09:16] [Server thread/INFO]: [WarpSystem]   > Loading Icons
+[01:09:16] [Server thread/INFO]: [WarpSystem]     > Loading background
+[01:09:16] [Server thread/INFO]: [WarpSystem]       ...got 1 background
+[01:09:16] [Server thread/INFO]: [WarpSystem]     > Loading Icons
+[01:09:16] [Server thread/INFO]: [WarpSystem]       ...got 0 Icons
+[01:09:16] [Server thread/INFO]: [WarpSystem]   > Loading Shortcuts
+[01:09:16] [Server thread/INFO]: [WarpSystem]     ...got 0 Shortcut(s)
+[01:09:16] [Server thread/INFO]: [WarpSystem]   > Loading SimpleWarps
+[01:09:16] [Server thread/INFO]: [WarpSystem]     ...got 9 SimpleWarp(s)
+[01:09:16] [Server thread/INFO]: [WarpSystem]   > Loading Animations
+[01:09:16] [Server thread/INFO]: [WarpSystem]     ...got 0 animation(s)
+[01:09:16] [Server thread/INFO]: [WarpSystem]   > Loading WarpSigns
+[01:09:17] [Server thread/INFO]: [WarpSystem]     ...got 4 WarpSign(s)
+[01:09:17] [Server thread/INFO]: [WarpSystem]   > Loading Portals
+[01:09:17] [Server thread/INFO]: [WarpSystem]     ...got 0 Portal(s)
+[01:09:17] [Server thread/INFO]: [WarpSystem]   > Loading PlayerWarps [Bungee: false; TimeDependent: true]
+[01:09:17] [Server thread/INFO]: [WarpSystem]     ...got 6 Class(es)
+[01:09:17] [Server thread/INFO]: [WarpSystem]     ...got 0 PlayerWarp(s)
+[01:09:17] [Server thread/INFO]: [WarpSystem]  
+[01:09:17] [Server thread/INFO]: [WarpSystem] Loading TeleportManager
+[01:09:17] [Server thread/INFO]: [WarpSystem] Starting AutoSaver
+[01:09:17] [Server thread/INFO]: [WarpSystem]  
+[01:09:17] [Server thread/INFO]: [WarpSystem] Finished (1540ms)
+[01:09:17] [Server thread/INFO]: [WarpSystem]  
+[01:09:17] [Server thread/INFO]: [WarpSystem] __________________________________________________________
+[01:09:17] [Server thread/INFO]: [WarpSystem]  
+[01:09:17] [Server thread/INFO]: [WarpSystem] ====================================================
+[01:09:17] [Server thread/INFO]: [WarpSystem]  WarpSystem works better if you use Paper 
+[01:09:17] [Server thread/INFO]: [WarpSystem]  as your server software. 
+[01:09:17] [Server thread/INFO]: [WarpSystem] ====================================================
+[01:09:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:09:17] [Server thread/INFO]: Done (10.999s)! For help, type "help"
+[01:09:20] [User Authenticator #1/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
+[01:09:20] [Server thread/INFO]: kflypppw joined the game
+[01:09:20] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:65141] logged in with entity id 41 at ([world]1072.3628195643453, 38.0, 302.1751377523446)
+[01:10:02] [Server thread/INFO]: kflypppw issued server command: /warp
+[01:10:06] [Server thread/INFO]: kflypppw issued server command: /warp challenge1
+[01:10:19] [Server thread/INFO]: kflypppw lost connection: Disconnected
+[01:10:19] [Server thread/INFO]: kflypppw left the game
+[01:10:26] [User Authenticator #2/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
+[01:10:26] [Server thread/INFO]: kflypppw joined the game
+[01:10:26] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:65164] logged in with entity id 105 at ([world]1067.5821287178424, 38.0, 824.3000000119209)
+[01:10:31] [Server thread/INFO]: kflypppw issued server command: /warp challenge1
+[01:10:46] [Server thread/INFO]: kflypppw issued server command: /spawn
+[01:10:50] [Server thread/INFO]: kflypppw issued server command: /warp
+[01:10:54] [Server thread/INFO]: kflypppw issued server command: /warp challenge1
+[01:11:06] [Server thread/INFO]: kflypppw lost connection: Disconnected
+[01:11:06] [Server thread/INFO]: kflypppw left the game
