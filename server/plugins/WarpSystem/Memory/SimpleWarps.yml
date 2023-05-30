@@ -43,6 +43,17 @@ Warps:
     Yaw: 0.4523
   Created: 1685048698503
   LastChanger: epicpanda72
+- LastChange: 1685484624932
+  Name: tower_top
+  Location:
+    X: 1660.0913
+    Pitch: 1.4997
+    Y: 134.0
+    Z: 1396.9919
+    World: world
+    Yaw: 128.5104
+  Created: 1685484624932
+  LastChanger: epicpanda72
 - LastChange: 1685009509104
   Name: suburb
   Location:
@@ -76,6 +87,17 @@ Warps:
     Yaw: -62.0311
   Created: 1685048361983
   LastChanger: epicpanda72
+- LastChange: 1685484231488
+  Name: challenge2
+  Location:
+    X: 1738.3
+    Pitch: -2.1001
+    Y: 113.0
+    Z: 1288.6998
+    World: world
+    Yaw: 46.1627
+  Created: 1685484231488
+  LastChanger: epicpanda72
 - LastChange: 1685069659964
   Name: challenge1
   Location:
@@ -98,3 +120,14 @@ Warps:
     Yaw: 83.7014
   Created: 1685039321864
   LastChanger: McOptimusFine
+- LastChange: 1685484430985
+  Name: tower_bottom
+  Location:
+    X: 1670.8679
+    Pitch: -2.8499
+    Y: 53.0
+    Z: 1373.8744
+    World: world
+    Yaw: -0.1896
+  Created: 1685484430985
+  LastChanger: epicpanda72
