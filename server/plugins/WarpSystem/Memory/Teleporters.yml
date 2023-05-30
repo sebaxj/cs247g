@@ -32,7 +32,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 5
+  performed: 7
   actions:
   - value:
       destination:
@@ -48,7 +48,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 4
+  performed: 6
   actions:
   - value:
       destination:
@@ -64,7 +64,7 @@ WarpSigns:
   - 'Teleport to:'
   - Spawn
   - =============
-  performed: 3
+  performed: 4
   actions:
   - value:
       destination:
@@ -80,7 +80,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 2
+  performed: 4
   actions:
   - value:
       destination:
