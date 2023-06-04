@@ -5,12 +5,12 @@ Spawn:
   - value:
       destination:
         id:
-          X: 1037.3088
-          Pitch: -0.2998
-          Y: 34.0625
-          Z: 313.4783
+          X: 1058.1373
+          Pitch: 1.0499
+          Y: 47.0625
+          Z: 313.587
           World: world
-          Yaw: -90.2994
+          Yaw: 90.3024
         type: 6
   displayname: Spawn
   performed: 53
@@ -23,6 +23,22 @@ Spawn:
   - Complete challenges, repair the boat, and create the cure!
 WarpSigns:
 - location:
+    X: 1054.0
+    Y: 47.0
+    Z: 314.0
+    World: world
+  text:
+  - Right click here
+  - to go to the
+  - 1st challenge
+  - ''
+  performed: 3
+  actions:
+  - value:
+      destination:
+        id: challenge1new
+        type: 1
+- location:
     X: 586.0
     Y: 69.0
     Z: 41.0
@@ -32,7 +48,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 8
+  performed: 9
   actions:
   - value:
       destination:
@@ -48,7 +64,7 @@ WarpSigns:
   - and then
   - right click here
   - to continue
-  performed: 1
+  performed: 2
   actions:
   - value:
       destination:
@@ -64,11 +80,43 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 7
+  performed: 8
   actions:
   - value:
       destination:
         id: scene3
+        type: 1
+- location:
+    X: 1054.0
+    Y: 47.0
+    Z: 312.0
+    World: world
+  text:
+  - Right click here
+  - to go to the
+  - 2nd challenge
+  - ''
+  performed: 1
+  actions:
+  - value:
+      destination:
+        id: challenge2
+        type: 1
+- location:
+    X: 1222.0
+    Y: 56.0
+    Z: 749.0
+    World: world
+  text:
+  - Right click here
+  - when you're
+  - ready!
+  - ''
+  performed: 2
+  actions:
+  - value:
+      destination:
+        id: challenge2start
         type: 1
 - location:
     X: 1671.0
@@ -80,7 +128,7 @@ WarpSigns:
   - to teleport
   - to the top
   - ''
-  performed: 2
+  performed: 3
   actions:
   - value:
       destination:
@@ -112,7 +160,7 @@ WarpSigns:
   - to begin your
   - challenge!
   - ''
-  performed: 2
+  performed: 4
   actions:
   - value:
       destination:
@@ -128,7 +176,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 5
+  performed: 6
   actions:
   - value:
       destination:
