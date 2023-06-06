@@ -18,8 +18,8 @@ regions:
             creeper-explosion: deny
             exit-deny-message: Oops! You can't walk off the boat! To leave, use the
                 teleports.
-            use: allow
             invincible: allow
+            use: allow
             exit-via-teleport: allow
             deny-spawn: ['minecraft:creeper']
             mob-spawning: deny
@@ -92,12 +92,12 @@ regions:
         flags:
             exit: deny
             exit-deny-message: You can't leave the island without solving the clue!
+            mob-damage: allow
             greeting: Kill zombies and find the hidden temple which contains a crucial
                 ingredient for the cure.
-            mob-damage: allow
             damage-animals: allow
-            greeting-title: 'Welcome to the first challenge: "The Island"'
             chest-access: allow
+            greeting-title: 'Welcome to the first challenge: "The Island"'
             deny-spawn: ['minecraft:skeleton', 'minecraft:enderman', 'minecraft:spider',
                 'minecraft:creeper', 'minecraft:husk', 'minecraft:slime']
             mob-spawning: allow
@@ -235,6 +235,18 @@ regions:
         max: {x: 828, y: 98, z: 308}
         members: {}
         flags: {passthrough: allow, mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    tower:
+        min: {x: 1571, y: 26, z: 1308}
+        max: {x: 1745, y: 203, z: 1443}
+        members:
+            unique-ids: [775a69d7-c4a6-4fd9-a830-f873eb22fff4]
+        flags:
+            respawn-location: {world: world, x: 1660.352401199656, y: 134.0, z: 1397.4774830746205,
+                pitch: 7.4995975, yaw: 128.21039}
+            fall-damage: allow
         owners: {}
         type: cuboid
         priority: 0

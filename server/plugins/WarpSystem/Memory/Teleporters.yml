@@ -5,15 +5,15 @@ Spawn:
   - value:
       destination:
         id:
-          X: 980.3
+          X: 980.3007
           Pitch: 2.2499
           Y: 38.0
-          Z: 38.4002
+          Z: 38.4812
           World: world
           Yaw: -89.4785
         type: 6
   displayname: Spawn
-  performed: 68
+  performed: 74
   usage: 4
   respawn: 2
   fireworks: true
@@ -28,31 +28,15 @@ WarpSigns:
     Z: 38.0
     World: world
   text:
-  - Right click
-  - this sign when
-  - you're ready
-  - to start!
-  performed: 13
+  - Right click here
+  - to begin
+  - ''
+  - ''
+  performed: 4
   actions:
   - value:
       destination:
         id: scene1
-        type: 1
-- location:
-    X: 586.0
-    Y: 69.0
-    Z: 41.0
-    World: world
-  text:
-  - Right click on
-  - this sign when
-  - you're ready
-  - to move on
-  performed: 26
-  actions:
-  - value:
-      destination:
-        id: scene2
         type: 1
 - location:
     X: 1222.0
@@ -64,11 +48,27 @@ WarpSigns:
   - this sign when
   - you're ready
   - to start
-  performed: 9
+  performed: 13
   actions:
   - value:
       destination:
         id: island_of_despair
+        type: 1
+- location:
+    X: 586.0
+    Y: 69.0
+    Z: 41.0
+    World: world
+  text:
+  - Right click here
+  - when you're
+  - ready
+  - ''
+  performed: 3
+  actions:
+  - value:
+      destination:
+        id: scene2
         type: 1
 - location:
     X: 1617.0
@@ -80,7 +80,7 @@ WarpSigns:
   - the chest then
   - click here to
   - return to boat
-  performed: 2
+  performed: 5
   actions:
   - value:
       destination:
@@ -96,7 +96,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - to move on
-  performed: 6
+  performed: 9
   actions:
   - value:
       destination:
@@ -112,7 +112,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - to move on
-  performed: 9
+  performed: 12
   actions:
   - value:
       destination:
@@ -128,7 +128,7 @@ WarpSigns:
   - the chest then
   - click here to
   - return to boat
-  performed: 3
+  performed: 5
   actions:
   - value:
       destination:
@@ -176,7 +176,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - to start
-  performed: 5
+  performed: 8
   actions:
   - value:
       destination:
