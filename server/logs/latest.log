@@ -1,313 +1,580 @@
-[01:10:16] [User Authenticator #1/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[01:10:17] [Server thread/INFO]: kflypppw joined the game
-[01:10:17] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:60778] logged in with entity id 6 at ([world]1215.8832066366135, 52.50015866826827, 674.8494822504055)
-[01:11:07] [Server thread/INFO]: kflypppw issued server command: /kill
-[01:11:07] [Server thread/INFO]: kflypppw fell out of the world
-[01:11:07] [Server thread/INFO]: [kflypppw: Killed kflypppw]
-[01:11:23] [Server thread/INFO]: kflypppw issued server command: /warp
-[01:11:27] [Server thread/INFO]: kflypppw issued server command: /warp challenge1new
-[01:11:42] [Server thread/INFO]: kflypppw issued server command: /time set day
-[01:11:42] [Server thread/INFO]: [kflypppw: Set the time to 1000]
-[01:11:53] [Server thread/INFO]: kflypppw issued server command: /give kflypppw minecraft:barrier
-[01:11:53] [Server thread/INFO]: [kflypppw: Gave 1 [Barrier] to kflypppw]
-[01:15:33] [Server thread/INFO]: kflypppw issued server command: /gamemode survival
-[01:15:33] [Server thread/INFO]: [kflypppw: Set own game mode to Survival Mode]
-[01:15:41] [Server thread/INFO]: kflypppw issued server command: /gamemode creative
-[01:15:41] [Server thread/INFO]: [kflypppw: Set own game mode to Creative Mode]
-[01:16:34] [Server thread/INFO]: kflypppw issued server command: //wand
-[01:17:06] [Server thread/INFO]: kflypppw issued server command: //replace fence barrier
-[01:17:15] [Server thread/INFO]: kflypppw issued server command: //replace wooden_fence
-[01:17:45] [Server thread/INFO]: kflypppw issued server command: //replace oak_fence barrier
-[01:20:00] [Server thread/INFO]: kflypppw issued server command: //brush sphere air 3
-[01:20:17] [Server thread/INFO]: kflypppw issued server command: //undo
-[01:20:21] [Server thread/INFO]: kflypppw issued server command: //brush sphere air 2
-[01:26:14] [Server thread/INFO]: kflypppw issued server command: /kill @e
-[01:26:14] [Server thread/INFO]: kflypppw fell out of the world
-[01:26:14] [Server thread/INFO]: [kflypppw: Killed 98 entities]
-[01:26:22] [Server thread/INFO]: kflypppw issued server command: /warp challenge1new
-[01:26:42] [Server thread/INFO]: kflypppw issued server command: /time set day
-[01:26:42] [Server thread/INFO]: [kflypppw: Set the time to 1000]
-[01:28:43] [Server thread/INFO]: kflypppw issued server command: //set oak_sign
-[01:30:54] [Server thread/INFO]: kflypppw issued server command: //set stone
-[01:33:05] [Server thread/INFO]: kflypppw issued server command: //set stone
-[01:35:20] [Server thread/INFO]: kflypppw issued server command: //set air
-[01:35:52] [Server thread/INFO]: kflypppw issued server command: //set stone
-[01:36:01] [Server thread/INFO]: kflypppw issued server command: //set stone
-[01:36:08] [Server thread/INFO]: kflypppw issued server command: //set stone\
-[01:36:10] [Server thread/INFO]: kflypppw issued server command: //set stone
-[01:36:26] [Server thread/INFO]: kflypppw issued server command: //set stone
-[01:37:57] [Server thread/INFO]: kflypppw issued server command: //set air
-[01:38:03] [Server thread/INFO]: kflypppw issued server command: //undo
-[01:38:18] [Server thread/INFO]: kflypppw issued server command: //set stone
-[01:38:27] [Server thread/INFO]: kflypppw issued server command: //set oak_sign
-[01:40:19] [Server thread/INFO]: kflypppw issued server command: //set redstone_lamp[lit=true]
-[01:40:33] [Server thread/INFO]: kflypppw issued server command: //set redstone_lamp[lit=true]
-[01:40:36] [Server thread/INFO]: kflypppw issued server command: //set redstone_lamp[lit=true]
-[01:42:35] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,deepslate,andesite
-[01:42:50] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:42:56] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:42:59] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:43:03] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:43:09] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:43:22] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:43:32] [Server thread/INFO]: kflypppw issued server command: //set redstone_lamp[lit=true]
-[01:49:13] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:49:22] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:54:51] [Server thread/INFO]: kflypppw issued server command: //set air
-[01:55:04] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[01:55:19] [Server thread/INFO]: kflypppw issued server command: //set redstone_lamp[lit=true]
-[02:03:13] [Server thread/INFO]: kflypppw issued server command: //set neth
-[02:03:16] [Server thread/INFO]: kflypppw issued server command: //set nether_wart
-[02:03:19] [Server thread/INFO]: kflypppw issued server command: //set nether_wart_block
-[02:03:32] [Server thread/INFO]: kflypppw has made the advancement [A Seedy Place]
-[02:04:05] [Server thread/INFO]: kflypppw issued server command: /spawn
-[02:04:17] [Server thread/INFO]: kflypppw issued server command: /warp challenge1new
-[02:07:43] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[02:07:47] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[02:07:52] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[02:07:55] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[02:07:58] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[02:08:01] [Server thread/INFO]: kflypppw issued server command: //set stone,stone_bricks,diorite,andesite
-[02:17:09] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[02:17:10] [Server thread/INFO]: kflypppw left the game
-[10:22:29] [User Authenticator #2/INFO]: UUID of player epicpanda72 is 775a69d7-c4a6-4fd9-a830-f873eb22fff4
-[10:22:29] [Server thread/INFO]: epicpanda72 joined the game
-[10:22:29] [Server thread/INFO]: epicpanda72[/10.31.245.232:53521] logged in with entity id 4778 at ([world]1216.683368059252, 41.74612900015078, 686.3333531687404)
-[10:23:54] [Server thread/INFO]: epicpanda72 issued server command: /
-[10:23:59] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[10:25:08] [Server thread/INFO]: epicpanda72 issued server command: /warp spawn
-[10:25:25] [Server thread/INFO]: epicpanda72 issued server command: /deletewarps spawn
-[10:25:48] [Server thread/INFO]: epicpanda72 issued server command: /deletewarps challenge1
-[10:26:00] [Server thread/INFO]: epicpanda72 issued server command: /warp scene4
-[10:26:21] [Server thread/INFO]: epicpanda72 issued server command: /setwarp spawn
-[10:28:12] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[10:33:24] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[10:39:55] [User Authenticator #3/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[10:39:55] [Server thread/INFO]: kflypppw joined the game
-[10:39:55] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:65187] logged in with entity id 98492 at ([world]1185.8403217261007, 33.0, 630.5163871178867)
-[10:40:09] [Server thread/INFO]: epicpanda72 issued server command: /
-[10:40:32] [Server thread/INFO]: kflypppw issued server command: /give epicpanda72 minecraft:barrier
-[10:40:32] [Server thread/INFO]: [kflypppw: Gave 1 [Barrier] to epicpanda72]
-[10:40:53] [Server thread/INFO]: epicpanda72 issued server command: /time set at
-[10:40:57] [Server thread/INFO]: epicpanda72 issued server command: /time set day
-[10:40:57] [Server thread/INFO]: [epicpanda72: Set the time to 1000]
-[10:41:11] [Async Chat Thread - #4/INFO]: <kflypppw> i gave u one[m
-[10:41:39] [Async Chat Thread - #4/INFO]: <kflypppw> i think i'm gonna change the lever puzzle to a button combination lock puzzle[m
-[10:41:42] [Async Chat Thread - #3/INFO]: <epicpanda72> when I place one, it has a red circle showing up[m
-[10:41:49] [Async Chat Thread - #4/INFO]: <epicpanda72> sounds good[m
-[10:41:54] [Async Chat Thread - #3/INFO]: <kflypppw> yea if you hold the block it shows the red circle[m
-[10:42:01] [Async Chat Thread - #4/INFO]: <kflypppw> if you switch off it it becomes invisible[m
-[10:42:04] [Async Chat Thread - #3/INFO]: <epicpanda72> gotcha[m
-[10:44:16] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene1
-[10:44:26] [Async Chat Thread - #5/INFO]: <epicpanda72> yes[m
-[10:44:40] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[10:45:49] [Server thread/INFO]: Villager EntityVillager['Villager'/104821, l='ServerLevel[world]', x=526.04, y=35.04, z=72.32] died, message: 'Villager was slain by epicpanda72'
-[10:46:35] [Server thread/INFO]: Villager EntityVillager['Villager'/105145, l='ServerLevel[world]', x=515.21, y=36.00, z=79.49] died, message: 'Villager was slain by Zombie Villager'
-[10:46:37] [Server thread/INFO]: Villager EntityVillager['Villager'/105146, l='ServerLevel[world]', x=519.43, y=36.00, z=80.46] died, message: 'Villager was slain by Zombie Villager'
-[10:46:42] [Server thread/INFO]: Villager EntityVillager['Villager'/105147, l='ServerLevel[world]', x=521.04, y=36.00, z=79.29] died, message: 'Villager was slain by Zombie Villager'
-[10:49:13] [Server thread/INFO]: Villager EntityVillager['Villager'/105412, l='ServerLevel[world]', x=521.50, y=36.00, z=80.34] died, message: 'Villager was slain by Zombie Villager'
-[10:49:51] [Server thread/INFO]: kflypppw issued server command: //set air
-[10:50:19] [Server thread/INFO]: kflypppw issued server command: //set air
-[10:50:31] [Server thread/INFO]: kflypppw issued server command: //set air
-[10:51:27] [Server thread/INFO]: epicpanda72 issued server command: /warp sce
-[10:51:37] [Server thread/INFO]: epicpanda72 issued server command: /warp scene2
-[10:52:02] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[10:52:02] [Server thread/INFO]: kflypppw left the game
-[10:52:11] [User Authenticator #4/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[10:52:11] [Server thread/INFO]: kflypppw joined the game
-[10:52:11] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:65349] logged in with entity id 241007 at ([world]1180.535926532535, 35.200000047683716, 644.4813956280634)
-[10:53:41] [Server thread/INFO]: kflypppw issued server command: //set air
-[10:58:05] [Server thread/INFO]: kflypppw issued server command: //set air
-[10:58:13] [Server thread/INFO]: kflypppw issued server command: //undo
-[10:58:19] [Server thread/INFO]: kflypppw issued server command: //set air
-[11:00:52] [Server thread/INFO]: kflypppw issued server command: //set air
-[11:02:39] [Server thread/INFO]: kflypppw issued server command: //set air
-[11:04:43] [Server thread/INFO]: kflypppw issued server command: //set air
-[11:15:40] [Server thread/INFO]: epicpanda72 issued server command: /give epicpanda72 minecraft:barrier
-[11:15:40] [Server thread/INFO]: [epicpanda72: Gave 1 [Barrier] to epicpanda72]
-[11:17:05] [Server thread/INFO]: epicpanda72 lost connection: Disconnected
-[11:17:05] [Server thread/INFO]: epicpanda72 left the game
-[11:17:29] [Server thread/INFO]: kflypppw issued server command: /time set day
-[11:17:29] [Server thread/INFO]: [kflypppw: Set the time to 1000]
-[11:22:36] [Server thread/INFO]: kflypppw issued server command: /time set day
-[11:22:36] [Server thread/INFO]: [kflypppw: Set the time to 1000]
-[11:33:37] [Server thread/INFO]: kflypppw issued server command: //replace stone stone,diorite,andesite,stone_bricks
-[11:33:57] [Server thread/INFO]: kflypppw issued server command: //replace stone_bricks
-[11:40:30] [Server thread/INFO]: kflypppw issued server command: /warp sand2
-[11:40:48] [Server thread/INFO]: kflypppw issued server command: /warp scene1
-[11:40:52] [Server thread/INFO]: kflypppw issued server command: /warp scene2
-[11:40:58] [Server thread/INFO]: kflypppw issued server command: /warp scene3
-[11:41:02] [Server thread/INFO]: kflypppw issued server command: /warp scene4
-[11:41:14] [Server thread/INFO]: kflypppw issued server command: /warp challenge1new
-[11:43:16] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[11:43:16] [Server thread/INFO]: kflypppw left the game
-[11:43:20] [User Authenticator #5/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[11:43:20] [Server thread/INFO]: kflypppw joined the game
-[11:43:20] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:49444] logged in with entity id 284308 at ([world]1226.8617785191107, 58.13633905023821, 696.1447354428885)
-[11:43:46] [Server thread/INFO]: kflypppw issued server command: /give kflypppw minecraft:barrier
-[11:43:46] [Server thread/INFO]: [kflypppw: Gave 1 [Barrier] to kflypppw]
-[11:47:28] [Server thread/INFO]: kflypppw issued server command: /time set night
-[11:47:28] [Server thread/INFO]: [kflypppw: Set the time to 13000]
-[11:52:50] [Server thread/INFO]: kflypppw issued server command: //set stone
-[11:52:56] [Server thread/INFO]: kflypppw issued server command: //undo
-[11:55:12] [Server thread/INFO]: kflypppw issued server command: //wand
-[11:55:26] [Server thread/INFO]: kflypppw issued server command: //set stone,diorite,andesite,stone_bricks
-[11:57:28] [Server thread/INFO]: kflypppw issued server command: //brush sphere air 1
-[12:01:38] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[12:01:38] [Server thread/INFO]: kflypppw left the game
-[12:01:46] [User Authenticator #6/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[12:01:46] [Server thread/INFO]: kflypppw joined the game
-[12:01:46] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:49625] logged in with entity id 285521 at ([world]1218.001306749214, 43.037862255897906, 631.3185655339736)
-[12:02:35] [Server thread/INFO]: kflypppw issued server command: /give kflypppw minecraft:command_block
-[12:02:35] [Server thread/INFO]: [kflypppw: Gave 1 [Command Block] to kflypppw]
-[12:04:59] [Server thread/INFO]: [@: Killed 11 entities]
-[12:05:25] [Server thread/INFO]: [@: Killed 4 entities]
-[12:05:28] [Server thread/INFO]: [@: Killed Creeper]
-[12:05:41] [Server thread/INFO]: [@: Killed 6 entities]
-[12:05:42] [Server thread/INFO]: [@: Killed Creeper]
-[12:05:48] [Server thread/INFO]: [@: Killed Skeleton]
-[12:05:48] [Server thread/INFO]: [@: Killed Skeleton]
-[12:05:55] [Server thread/INFO]: [@: Killed Skeleton]
-[12:05:55] [Server thread/INFO]: [@: Killed Creeper]
-[12:05:57] [Server thread/INFO]: [@: Killed Creeper]
-[12:05:58] [Server thread/INFO]: [@: Killed 2 entities]
-[12:06:04] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:05] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:06] [Server thread/INFO]: [@: Killed 2 entities]
-[12:06:08] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:11] [Server thread/INFO]: [@: Killed 3 entities]
-[12:06:14] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:21] [Server thread/INFO]: [@: Killed 2 entities]
-[12:06:24] [Server thread/INFO]: [@: Killed 4 entities]
-[12:06:28] [Server thread/INFO]: [@: Killed 2 entities]
-[12:06:29] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:34] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:34] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:34] [Server thread/INFO]: [@: Killed 4 entities]
-[12:06:36] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:36] [Server thread/INFO]: [@: Killed Spider]
-[12:06:38] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:43] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:43] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:45] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:47] [Server thread/INFO]: [@: Killed 3 entities]
-[12:06:49] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:50] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:51] [Server thread/INFO]: [@: Killed Creeper]
-[12:06:53] [Server thread/INFO]: [@: Killed 3 entities]
-[12:06:53] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:54] [Server thread/INFO]: [@: Killed 2 entities]
-[12:06:54] [Server thread/INFO]: [@: Killed 2 entities]
-[12:06:54] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:56] [Server thread/INFO]: [@: Killed 4 entities]
-[12:06:58] [Server thread/INFO]: [@: Killed Skeleton]
-[12:06:58] [Server thread/INFO]: kflypppw issued server command: /gamerule commandBlockOutput false
-[12:06:58] [Server thread/INFO]: [kflypppw: Gamerule commandBlockOutput is now set to: false]
-[12:07:15] [Server thread/INFO]: kflypppw issued server command: /time set night
-[12:07:15] [Server thread/INFO]: [kflypppw: Set the time to 13000]
-[12:10:31] [Server thread/INFO]: kflypppw issued server command: /give kflypppw minecraft:barrier
-[12:10:31] [Server thread/INFO]: [kflypppw: Gave 1 [Barrier] to kflypppw]
-[12:11:01] [Server thread/INFO]: kflypppw issued server command: //undo
-[12:12:44] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[12:12:44] [Server thread/INFO]: kflypppw left the game
-[12:12:48] [User Authenticator #7/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[12:12:48] [Server thread/INFO]: kflypppw joined the game
-[12:12:48] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:49889] logged in with entity id 287684 at ([world]1188.1827054322227, 43.0, 630.8294493454842)
-[12:27:32] [Server thread/INFO]: kflypppw issued server command: //set armor_stand
-[12:34:20] [Server thread/INFO]: kflypppw issued server command: //set dark_oak_button[powered=true]
-[12:34:29] [Server thread/INFO]: kflypppw issued server command: //set dark_oak_button[powered=true,facing=north]
-[12:34:33] [Server thread/INFO]: kflypppw issued server command: //set dark_oak_button[powered=true,facing=south]
-[12:36:17] [Server thread/INFO]: kflypppw issued server command: //set stone
-[12:36:27] [Server thread/INFO]: kflypppw issued server command: //undo
-[12:38:02] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[12:38:02] [Server thread/INFO]: kflypppw left the game
-[12:38:53] [User Authenticator #8/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[12:38:53] [Server thread/INFO]: kflypppw joined the game
-[12:38:53] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:50136] logged in with entity id 291889 at ([world]1188.9989891819753, 43.0, 631.632616901543)
-[12:40:07] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[12:40:07] [Server thread/INFO]: kflypppw left the game
-[12:47:25] [User Authenticator #9/INFO]: UUID of player epicpanda72 is 775a69d7-c4a6-4fd9-a830-f873eb22fff4
-[12:47:25] [Server thread/INFO]: epicpanda72 joined the game
-[12:47:25] [Server thread/INFO]: epicpanda72[/10.34.103.29:56601] logged in with entity id 292270 at ([world]514.6856879306998, 35.12478106737661, 83.54534919309877)
-[12:54:10] [Server thread/INFO]: epicpanda72 issued server command: /kill @e
-[12:54:10] [Server thread/INFO]: epicpanda72 fell out of the world
-[12:54:10] [Server thread/INFO]: [epicpanda72: Killed 38 entities]
-[12:54:17] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[12:57:03] [Server thread/INFO]: Villager EntityVillager['Villager'/301715, l='ServerLevel[world]', x=520.53, y=36.00, z=79.97] died, message: 'Villager was slain by Zombie Villager'
-[12:57:11] [Server thread/INFO]: Villager EntityVillager['Villager'/301716, l='ServerLevel[world]', x=521.40, y=36.00, z=80.13] died, message: 'Villager was slain by Zombie Villager'
-[12:57:19] [Server thread/INFO]: Villager EntityVillager['Villager'/301735, l='ServerLevel[world]', x=521.45, y=36.00, z=80.41] died, message: 'Villager was slain by Zombie Villager'
-[13:00:07] [Server thread/INFO]: Villager EntityVillager['Villager'/301890, l='ServerLevel[world]', x=520.06, y=36.00, z=79.27] died, message: 'Villager was slain by Zombie Villager'
-[13:00:12] [Server thread/INFO]: Villager EntityVillager['Villager'/301891, l='ServerLevel[world]', x=513.70, y=36.00, z=79.30] died, message: 'Villager was slain by Zombie Villager'
-[13:02:09] [Server thread/INFO]: Villager EntityVillager['Villager'/302006, l='ServerLevel[world]', x=515.30, y=36.00, z=79.49] died, message: 'Villager was slain by Zombie Villager'
-[13:02:23] [Server thread/INFO]: Villager EntityVillager['Villager'/302007, l='ServerLevel[world]', x=521.70, y=36.00, z=80.70] died, message: 'Villager was slain by Zombie Villager'
-[13:06:09] [Server thread/INFO]: Villager EntityVillager['Villager'/304237, l='ServerLevel[world]', x=515.55, y=36.00, z=78.95] died, message: 'Villager was slain by Zombie Villager'
-[13:06:10] [Server thread/INFO]: Villager EntityVillager['Villager'/304238, l='ServerLevel[world]', x=519.76, y=36.00, z=79.32] died, message: 'Villager was slain by Zombie Villager'
-[13:06:43] [Server thread/INFO]: epicpanda72 has made the advancement [Acquire Hardware]
-[13:07:17] [Server thread/INFO]: epicpanda72 has made the advancement [Sweet Dreams]
-[13:07:20] [Async Chat Thread - #13/INFO]: <epicpanda72> f[m
-[13:07:58] [Server thread/INFO]: epicpanda72 issued server command: /warp scene2
-[13:11:23] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene2
-[13:11:52] [Server thread/INFO]: Villager EntityVillager['Villager'/477893, l='ServerLevel[world]', x=513.70, y=36.00, z=79.33] died, message: 'Villager was slain by Zombie Villager'
-[13:11:55] [Server thread/INFO]: Villager EntityVillager['Villager'/477882, l='ServerLevel[world]', x=521.53, y=36.00, z=79.51] died, message: 'Villager was slain by Zombie Villager'
-[13:13:03] [Server thread/INFO]: Villager EntityVillager['Villager'/480595, l='ServerLevel[world]', x=510.49, y=36.00, z=78.36] died, message: 'Villager was slain by Zombie Villager'
-[13:13:41] [Server thread/INFO]: Villager EntityVillager['Villager'/480596, l='ServerLevel[world]', x=523.51, y=35.51, z=77.82] died, message: 'Villager was impaled by Drowned'
-[13:13:51] [Server thread/INFO]: Villager EntityVillager['Villager'/481234, l='ServerLevel[world]', x=523.54, y=35.51, z=73.36] died, message: 'Villager was impaled by Drowned'
-[13:14:08] [Server thread/INFO]: Villager EntityVillager['Villager'/481233, l='ServerLevel[world]', x=523.30, y=33.83, z=78.62] died, message: 'Villager was impaled by Drowned'
-[13:14:23] [Server thread/INFO]: Villager EntityVillager['Villager'/480900, l='ServerLevel[world]', x=523.49, y=35.56, z=77.24] died, message: 'Villager was impaled by Drowned'
-[13:14:37] [Server thread/INFO]: Villager EntityVillager['Villager'/480901, l='ServerLevel[world]', x=518.34, y=34.88, z=74.30] died, message: 'Villager was slain by epicpanda72'
-[13:17:23] [Server thread/INFO]: Villager EntityVillager['Villager'/484176, l='ServerLevel[world]', x=521.22, y=36.00, z=78.96] died, message: 'Villager was slain by Zombie Villager'
-[13:17:28] [Server thread/INFO]: Villager EntityVillager['Villager'/484181, l='ServerLevel[world]', x=520.19, y=36.00, z=78.95] died, message: 'Villager was slain by Zombie Villager'
-[13:18:56] [Server thread/INFO]: Villager EntityVillager['Villager'/484272, l='ServerLevel[world]', x=513.84, y=36.00, z=80.51] died, message: 'Villager was slain by Zombie Villager'
-[13:20:06] [Server thread/INFO]: Villager EntityVillager['Villager'/484324, l='ServerLevel[world]', x=512.87, y=36.00, z=79.54] died, message: 'Villager was slain by Zombie Villager'
-[13:20:39] [Server thread/INFO]: Villager EntityVillager['Villager'/484363, l='ServerLevel[world]', x=515.91, y=36.00, z=80.57] died, message: 'Villager was slain by Zombie Villager'
-[13:22:01] [Server thread/INFO]: Villager EntityVillager['Villager'/484428, l='ServerLevel[world]', x=521.40, y=36.00, z=80.12] died, message: 'Villager was slain by Zombie Villager'
-[13:22:03] [Server thread/INFO]: Villager EntityVillager['Villager'/484431, l='ServerLevel[world]', x=521.69, y=36.00, z=79.30] died, message: 'Villager was slain by Zombie Villager'
-[13:23:53] [Server thread/INFO]: epicpanda72 issued server command: /warp scene1
-[13:24:12] [Server thread/INFO]: Villager EntityVillager['Villager'/484963, l='ServerLevel[world]', x=517.62, y=36.00, z=80.49] died, message: 'Villager was slain by Zombie Villager'
-[13:24:13] [Server thread/INFO]: Villager EntityVillager['Villager'/484959, l='ServerLevel[world]', x=516.49, y=36.00, z=79.30] died, message: 'Villager was slain by Zombie Villager'
-[13:28:09] [Server thread/INFO]: epicpanda72 issued server command: /setwarp scene4
-[13:33:32] [Server thread/INFO]: epicpanda72 lost connection: Disconnected
-[13:33:32] [Server thread/INFO]: epicpanda72 left the game
-[17:11:39] [User Authenticator #10/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[17:11:40] [Server thread/INFO]: kflypppw joined the game
-[17:11:40] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:52596] logged in with entity id 486795 at ([world]1185.7519920273464, 33.0, 631.5262812288161)
-[17:19:04] [Server thread/INFO]: kflypppw issued server command: //set oak_sign[rotation=12]
-[17:21:39] [Server thread/INFO]: kflypppw issued server command: //set wallsign:3
-[17:23:25] [Server thread/INFO]: kflypppw issued server command: //set wall_sign
-[17:23:48] [Server thread/INFO]: kflypppw issued server command: //set minecraft:wall_sign
-[17:24:00] [Server thread/INFO]: kflypppw issued server command: //set 68
-[17:25:25] [Server thread/INFO]: kflypppw issued server command: /stoplag
-[17:25:56] [Server thread/INFO]: kflypppw issued server command: //set oak_sign
-[17:26:06] [Server thread/INFO]: kflypppw issued server command: //set dark_oak_sign
-[17:26:31] [Server thread/INFO]: kflypppw issued server command: /give kflypppw minecraft:barrier
-[17:26:31] [Server thread/INFO]: [kflypppw: Gave 1 [Barrier] to kflypppw]
-[17:30:00] [Server thread/INFO]: kflypppw issued server command: //wand
-[17:31:23] [Server thread/INFO]: kflypppw has made the advancement [Stone Age]
-[17:36:41] [Server thread/INFO]: kflypppw issued server command: //brush air 2
-[17:36:46] [Server thread/INFO]: kflypppw issued server command: //brush sphere air 2
-[17:38:44] [Server thread/INFO]: kflypppw issued server command: /give kflypppw minecraft:command_block
-[17:38:44] [Server thread/INFO]: [kflypppw: Gave 1 [Command Block] to kflypppw]
-[17:41:28] [Server thread/INFO]: kflypppw issued server command: /spawn
-[17:41:32] [Server thread/INFO]: kflypppw issued server command: /spawn
-[17:41:42] [Server thread/INFO]: kflypppw issued server command: /warp scene1
-[17:42:17] [Server thread/INFO]: kflypppw issued server command: //replace barrier
-[17:42:35] [Server thread/INFO]: Villager EntityVillager['Villager'/494090, l='ServerLevel[world]', x=520.50, y=36.00, z=79.51] died, message: 'Villager was slain by Zombie Villager'
-[17:42:47] [Server thread/INFO]: Villager EntityVillager['Villager'/494086, l='ServerLevel[world]', x=516.43, y=36.00, z=80.70] died, message: 'Villager was slain by Zombie Villager'
-[17:42:56] [Server thread/INFO]: Villager EntityVillager['Villager'/494103, l='ServerLevel[world]', x=516.95, y=36.00, z=80.69] died, message: 'Villager was slain by Zombie Villager'
-[17:42:59] [Server thread/INFO]: Villager EntityVillager['Villager'/494106, l='ServerLevel[world]', x=515.16, y=36.00, z=80.49] died, message: 'Villager was slain by Zombie Villager'
-[17:43:02] [Server thread/INFO]: kflypppw issued server command: /warp scene1
-[17:44:28] [Server thread/INFO]: kflypppw issued server command: /give kflypppw barrier
-[17:44:28] [Server thread/INFO]: [kflypppw: Gave 1 [Barrier] to kflypppw]
-[17:47:09] [Server thread/INFO]: kflypppw issued server command: //set glass
-[17:47:14] [Server thread/INFO]: kflypppw issued server command: //undo
-[17:47:20] [Server thread/INFO]: kflypppw issued server command: //set glass
-[17:48:20] [Server thread/INFO]: kflypppw issued server command: //set air
-[18:17:09] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[18:17:09] [Server thread/INFO]: kflypppw left the game
-[18:17:19] [User Authenticator #11/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
-[18:17:19] [Server thread/INFO]: kflypppw joined the game
-[18:17:19] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:53796] logged in with entity id 567250 at ([world]579.6222969585131, 33.0, 36.91547016212054)
-[18:45:35] [Server thread/INFO]: kflypppw issued server command: /spawn
-[18:45:39] [Server thread/INFO]: kflypppw issued server command: /warp scene1
-[18:46:32] [Server thread/INFO]: kflypppw lost connection: Disconnected
-[18:46:32] [Server thread/INFO]: kflypppw left the game
+[18:50:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:50:47] [ServerMain/INFO]: Loaded 7 recipes
+[18:50:48] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[18:50:48] [Server thread/INFO]: Loading properties
+[18:50:48] [Server thread/INFO]: This server is running CraftBukkit version 3749-Spigot-7da74da-d9324b4 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT)
+[18:50:48] [Server thread/INFO]: Debug logging is disabled
+[18:50:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:50:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:50:48] [Server thread/INFO]: Default game type: SURVIVAL
+[18:50:48] [Server thread/INFO]: Generating keypair
+[18:50:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:50:48] [Server thread/INFO]: Using default channel type
+[18:50:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.14+6360-094b734
+[18:50:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4fe2d9ee]
+[18:50:49] [Server thread/INFO]: [MobArena] Loading MobArena v0.107
+[18:50:50] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
+[18:50:50] [Server thread/INFO]: [WorldGuardExtraFlags] Loading WorldGuardExtraFlags v4.2.1
+[18:50:50] [Server thread/INFO]: [WarpSystem] Loading WarpSystem v5.1.6-free
+[18:50:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
+[18:50:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:50:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:50:50] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[18:50:51] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:50:51] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:50:51] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:50:51] [Server thread/INFO]: [WorldEdit]   
+[18:50:51] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[18:50:51] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[18:50:51] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[18:50:51] [Server thread/INFO]: [WorldEdit]   
+[18:50:51] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[18:50:51] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[18:50:51] [Server thread/INFO]: [WorldEdit]   
+[18:50:51] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[18:50:51] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[18:50:51] [Server thread/INFO]: [WorldEdit]   
+[18:50:51] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[18:50:51] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:50:51] [Server thread/INFO]: Preparing level "world"
+[18:50:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:50:51] [Server thread/INFO]: View Distance: 10
+[18:50:51] [Server thread/INFO]: Simulation Distance: 10
+[18:50:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:50:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:50:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:50:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:50:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:50:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:50:51] [Server thread/INFO]: Mob Spawn Range: 6
+[18:50:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:50:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:50:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:50:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:50:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:50:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:50:51] [Server thread/INFO]: Max TNT Explosions: 100
+[18:50:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:50:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:50:52] [Server thread/INFO]: View Distance: 10
+[18:50:52] [Server thread/INFO]: Simulation Distance: 10
+[18:50:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:50:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:50:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:50:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:50:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:50:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:50:52] [Server thread/INFO]: Mob Spawn Range: 6
+[18:50:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:50:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:50:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:50:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:50:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:50:52] [Server thread/INFO]: Max TNT Explosions: 100
+[18:50:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:50:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:50:52] [Server thread/INFO]: View Distance: 10
+[18:50:52] [Server thread/INFO]: Simulation Distance: 10
+[18:50:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:50:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:50:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:50:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:50:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:50:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:50:52] [Server thread/INFO]: Mob Spawn Range: 6
+[18:50:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:50:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:50:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:50:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:50:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:50:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:50:52] [Server thread/INFO]: Max TNT Explosions: 100
+[18:50:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:50:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:50:54] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:50:54] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:50:54] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:50:54] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:50:54] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:50:54] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:50:55] [Worker-Main-15/INFO]: Preparing spawn area: 92%
+[18:50:55] [Server thread/INFO]: Time elapsed: 3020 ms
+[18:50:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:50:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:50:57] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:50:57] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[18:50:57] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[18:50:57] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:50:57] [Worker-Main-7/INFO]: Preparing spawn area: 6%
+[18:50:58] [Server thread/INFO]: Time elapsed: 2859 ms
+[18:50:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:50:59] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[18:50:59] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[18:50:59] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[18:50:59] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:51:00] [Worker-Main-3/INFO]: Preparing spawn area: 88%
+[18:51:00] [Server thread/INFO]: Time elapsed: 2049 ms
+[18:51:00] [Server thread/INFO]: [MobArena] Enabling MobArena v0.107
+[18:51:00] [Server thread/INFO]: [MobArena] Vault was not found. Economy rewards will not work.
+[18:51:00] [Server thread/INFO]: [MobArena] Loaded arena 'desert'
+[18:51:00] [Server thread/INFO]: [MobArena] 1 arena sign(s) loaded.
+[18:51:00] [Server thread/INFO]: [MobArena] Loaded 3 sign templates.
+[18:51:00] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:51:00] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:51:00] [Server thread/INFO]: [WorldGuardExtraFlags] Enabling WorldGuardExtraFlags v4.2.1
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnEntryFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.TeleportOnExitFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnEntryFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.CommandOnExitFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnEntryFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.ConsoleCommandOnExitFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.WalkSpeedFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.BlockedEffectsFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GodmodeFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GiveEffectsFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlyFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.FlySpeedFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.PlaySoundsFlagHandler
+[18:51:00] [Server thread/INFO]: [WorldGuard] Registering session handler net.goldtreeservers.worldguardextraflags.wg.handlers.GlideFlagHandler
+[18:51:01] [Server thread/INFO]: [WarpSystem] Enabling WarpSystem v5.1.6-free
+[18:51:01] [Server thread/INFO]: [WarpSystem]  
+[18:51:01] [Server thread/INFO]: [WarpSystem] __________________________________________________________
+[18:51:01] [Server thread/INFO]: [WarpSystem]  
+[18:51:01] [Server thread/INFO]: [WarpSystem]                        WarpSystem [5.1.6-free]
+[18:51:01] [Server thread/INFO]: [WarpSystem]  
+[18:51:01] [Server thread/INFO]: [WarpSystem] Status:
+[18:51:01] [Server thread/INFO]: [WarpSystem]  
+[18:51:01] [Server thread/INFO]: [WarpSystem] MC-Version: 1.19.4 (R0.1-SNAPSHOT, Spigot)
+[18:51:01] [Server thread/INFO]: [WarpSystem]  
+[18:51:01] [Server thread/INFO]: [WarpSystem] Loading features
+[18:51:01] [Server thread/INFO]: [WarpSystem]   > Loading PlayerWarps [Bungee: false; TimeDependent: true]
+[18:51:01] [Server thread/INFO]: [WarpSystem]     ...got 6 Class(es)
+[18:51:01] [Server thread/INFO]: [WarpSystem]     ...got 0 PlayerWarp(s)
+[18:51:01] [Server thread/INFO]: [WarpSystem]   > Loading SimpleWarps
+[18:51:01] [Server thread/INFO]: [WarpSystem]     ...got 13 SimpleWarp(s)
+[18:51:01] [Server thread/INFO]: [WarpSystem]   > Loading Icons
+[18:51:01] [Server thread/INFO]: [WarpSystem]     > Loading background
+[18:51:01] [Server thread/INFO]: [WarpSystem]       ...got 1 background
+[18:51:01] [Server thread/INFO]: [WarpSystem]     > Loading Icons
+[18:51:01] [Server thread/INFO]: [WarpSystem]       ...got 0 Icons
+[18:51:01] [Server thread/INFO]: [WarpSystem]   > Loading RandomTeleporters
+[18:51:01] [Server thread/INFO]: [WarpSystem]     ...got 3 WorldOption(s)
+[18:51:01] [Server thread/INFO]: [WarpSystem]     ...preloading is disabled
+[18:51:01] [Server thread/INFO]: [WarpSystem]     ...got 0 InteractBlock(s)
+[18:51:01] [Server thread/INFO]: [WarpSystem]   > Loading Portals
+[18:51:01] [Server thread/INFO]: [WarpSystem]     ...got 0 Portal(s)
+[18:51:01] [Server thread/INFO]: [WarpSystem]   > Loading WarpSigns
+[18:51:02] [Server thread/INFO]: [WarpSystem]     ...got 11 WarpSign(s)
+[18:51:02] [Server thread/INFO]: [WarpSystem]   > Loading Shortcuts
+[18:51:02] [Server thread/INFO]: [WarpSystem]     ...got 0 Shortcut(s)
+[18:51:02] [Server thread/INFO]: [WarpSystem]   > Loading Animations
+[18:51:03] [Server thread/INFO]: [WarpSystem]     ...got 0 animation(s)
+[18:51:03] [Server thread/INFO]: [WarpSystem]  
+[18:51:03] [Server thread/INFO]: [WarpSystem] Loading TeleportManager
+[18:51:03] [Server thread/INFO]: [WarpSystem] Starting AutoSaver
+[18:51:03] [Server thread/INFO]: [WarpSystem]  
+[18:51:03] [Server thread/INFO]: [WarpSystem] Finished (2014ms)
+[18:51:03] [Server thread/INFO]: [WarpSystem]  
+[18:51:03] [Server thread/INFO]: [WarpSystem] __________________________________________________________
+[18:51:03] [Server thread/INFO]: [WarpSystem]  
+[18:51:03] [Server thread/INFO]: [WarpSystem] ====================================================
+[18:51:03] [Server thread/INFO]: [WarpSystem]  WarpSystem works better if you use Paper 
+[18:51:03] [Server thread/INFO]: [WarpSystem]  as your server software. 
+[18:51:03] [Server thread/INFO]: [WarpSystem] ====================================================
+[18:51:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:51:03] [Server thread/INFO]: Done (11.661s)! For help, type "help"
+[18:51:05] [User Authenticator #1/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
+[18:51:05] [Server thread/INFO]: kflypppw joined the game
+[18:51:05] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:54550] logged in with entity id 12 at ([world]586.6999999880791, 68.0, 40.30000001192093)
+[18:51:08] [Server thread/INFO]: kflypppw issued server command: /spawn
+[18:51:34] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[18:51:49] [Server thread/INFO]: kflypppw lost connection: Disconnected
+[18:51:49] [Server thread/INFO]: kflypppw left the game
+[18:51:53] [User Authenticator #2/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
+[18:51:53] [Server thread/INFO]: kflypppw joined the game
+[18:51:53] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:54562] logged in with entity id 706 at ([world]586.3000000119209, 68.0, 40.3)
+[18:52:54] [Server thread/INFO]: Villager EntityVillager['Villager'/1670, l='ServerLevel[world]', x=513.70, y=36.00, z=79.42] died, message: 'Villager was slain by Zombie Villager'
+[18:52:54] [Server thread/INFO]: Villager EntityVillager['Villager'/1673, l='ServerLevel[world]', x=521.43, y=36.00, z=80.34] died, message: 'Villager was slain by Zombie Villager'
+[18:53:39] [Server thread/INFO]: kflypppw issued server command: /gamemode
+[18:53:41] [Server thread/INFO]: kflypppw issued server command: /gamemode spectator
+[18:53:41] [Server thread/INFO]: [kflypppw: Set own game mode to Spectator Mode]
+[18:53:46] [Server thread/INFO]: kflypppw issued server command: /gamemode creative
+[18:53:46] [Server thread/INFO]: [kflypppw: Set own game mode to Creative Mode]
+[18:55:39] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[18:55:41] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[18:55:52] [Server thread/INFO]: kflypppw issued server command: /gamemode spectator
+[18:55:52] [Server thread/INFO]: [kflypppw: Set own game mode to Spectator Mode]
+[18:55:58] [Server thread/INFO]: kflypppw issued server command: /gamemode creative
+[18:55:58] [Server thread/INFO]: [kflypppw: Set own game mode to Creative Mode]
+[18:56:39] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[18:56:43] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[18:56:52] [Server thread/INFO]: kflypppw issued server command: /gamemode spectator
+[18:56:52] [Server thread/INFO]: [kflypppw: Set own game mode to Spectator Mode]
+[18:56:57] [Server thread/INFO]: kflypppw issued server command: /gamemode creative
+[18:56:57] [Server thread/INFO]: [kflypppw: Set own game mode to Creative Mode]
+[18:56:58] [Server thread/INFO]: Villager EntityVillager['Villager'/4245, l='ServerLevel[world]', x=513.70, y=36.00, z=79.47] died, message: 'Villager was slain by Zombie Villager'
+[18:56:59] [Server thread/INFO]: Villager EntityVillager['Villager'/4228, l='ServerLevel[world]', x=521.36, y=36.00, z=80.22] died, message: 'Villager was slain by Zombie Villager'
+[18:57:42] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:zombie_villager
+[18:57:44] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:zombie_villager]
+[18:57:44] [Server thread/INFO]: [kflypppw: Killed 9 entities]
+[18:58:17] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:villager]
+[18:58:17] [Server thread/INFO]: Villager EntityVillager['Villager'/2503, l='ServerLevel[world]', x=516.50, y=36.00, z=74.50] died, message: 'Villager fell out of the world'
+[18:58:17] [Server thread/INFO]: Villager EntityVillager['Villager'/2510, l='ServerLevel[world]', x=518.28, y=36.56, z=74.54] died, message: 'Villager fell out of the world'
+[18:58:17] [Server thread/INFO]: [kflypppw: Killed 2 entities]
+[19:00:41] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[19:00:57] [Server thread/INFO]: Villager EntityVillager['Villager'/9478, l='ServerLevel[world]', x=517.70, y=36.00, z=79.75] died, message: 'Villager was slain by Zombie Villager'
+[19:01:04] [Server thread/INFO]: Villager EntityVillager['Villager'/9494, l='ServerLevel[world]', x=515.30, y=36.00, z=80.53] died, message: 'Villager was slain by Zombie Villager'
+[19:03:54] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[19:03:56] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[19:04:07] [Server thread/INFO]: Villager EntityVillager['Villager'/12071, l='ServerLevel[world]', x=512.51, y=36.00, z=80.06] died, message: 'Villager was slain by Zombie Villager'
+[19:04:10] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:villager]
+[19:04:11] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:villager]
+[19:04:13] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:zombie_villager]
+[19:04:13] [Server thread/INFO]: [kflypppw: Killed 6 entities]
+[19:04:31] [Server thread/INFO]: Villager EntityVillager['Villager'/12093, l='ServerLevel[world]', x=520.85, y=36.00, z=80.68] died, message: 'Villager was slain by Zombie Villager'
+[19:04:51] [Server thread/INFO]: Villager EntityVillager['Villager'/12143, l='ServerLevel[world]', x=521.41, y=36.00, z=79.32] died, message: 'Villager was slain by Zombie Villager'
+[19:04:56] [Server thread/INFO]: Villager EntityVillager['Villager'/12156, l='ServerLevel[world]', x=520.81, y=36.00, z=80.39] died, message: 'Villager was slain by Zombie Villager'
+[19:05:04] [Server thread/INFO]: kflypppw lost connection: Disconnected
+[19:05:04] [Server thread/INFO]: kflypppw left the game
+[19:05:12] [User Authenticator #3/INFO]: UUID of player kflypppw is 369ad2c5-92f8-4d1b-ac9e-650f01edb7f2
+[19:05:12] [Server thread/INFO]: kflypppw joined the game
+[19:05:12] [Server thread/INFO]: kflypppw[/[0:0:0:0:0:0:0:1]:54707] logged in with entity id 12165 at ([world]521.2668105897316, 37.37391448528773, 84.72099899191478)
+[19:05:24] [Server thread/INFO]: Villager EntityVillager['Villager'/12203, l='ServerLevel[world]', x=520.30, y=36.00, z=80.70] died, message: 'Villager was slain by Zombie Villager'
+[19:05:30] [Server thread/INFO]: Villager EntityVillager['Villager'/12209, l='ServerLevel[world]', x=521.70, y=36.00, z=80.70] died, message: 'Villager was slain by Zombie Villager'
+[19:05:47] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:zombie_villager]
+[19:05:47] [Server thread/INFO]: [kflypppw: Killed 12 entities]
+[19:05:56] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[19:06:08] [Server thread/INFO]: Villager EntityVillager['Villager'/12231, l='ServerLevel[world]', x=513.65, y=36.00, z=79.37] died, message: 'Villager was slain by Zombie Villager'
+[19:06:13] [Server thread/INFO]: Villager EntityVillager['Villager'/12235, l='ServerLevel[world]', x=521.11, y=36.00, z=79.31] died, message: 'Villager was slain by Zombie Villager'
+[19:07:04] [Server thread/INFO]: kflypppw issued server command: /difficulty hard
+[19:07:04] [Server thread/INFO]: [kflypppw: The difficulty has been set to Hard]
+[19:07:08] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:zombie_villager]
+[19:07:08] [Server thread/INFO]: [kflypppw: Killed 3 entities]
+[19:07:14] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[19:07:28] [Server thread/INFO]: Villager EntityVillager['Villager'/12278, l='ServerLevel[world]', x=520.36, y=36.00, z=80.02] died, message: 'Villager was slain by Zombie Villager'
+[19:07:37] [Server thread/INFO]: Villager EntityVillager['Villager'/12281, l='ServerLevel[world]', x=513.70, y=36.00, z=80.67] died, message: 'Villager was slain by Zombie Villager'
+[19:08:50] [Server thread/INFO]: kflypppw issued server command: /gamerule commandBlockOutput true
+[19:08:50] [Server thread/INFO]: [kflypppw: Gamerule commandBlockOutput is now set to: true]
+[19:09:10] [Server thread/INFO]: Villager EntityVillager['Villager'/12408, l='ServerLevel[world]', x=521.67, y=36.00, z=79.97] died, message: 'Villager was slain by Zombie Villager'
+[19:09:12] [Server thread/INFO]: Villager EntityVillager['Villager'/12411, l='ServerLevel[world]', x=518.98, y=36.00, z=79.70] died, message: 'Villager was slain by Zombie Villager'
+[19:10:46] [Server thread/INFO]: kflypppw issued server command: /difficulty easy
+[19:10:46] [Server thread/INFO]: [kflypppw: The difficulty has been set to Easy]
+[19:11:27] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:29] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:30] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:31] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:32] [Server thread/INFO]: Villager EntityVillager['Villager'/12521, l='ServerLevel[world]', x=518.31, y=36.00, z=79.31] died, message: 'Villager was slain by Zombie Villager'
+[19:11:34] [Server thread/INFO]: Villager EntityVillager['Villager'/12524, l='ServerLevel[world]', x=515.94, y=36.91, z=79.30] died, message: 'Villager was slain by Zombie Villager'
+[19:11:43] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:43] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:11:43] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:11:47] [Server thread/INFO]: Villager EntityVillager['Villager'/12535, l='ServerLevel[world]', x=521.69, y=36.64, z=80.69] died, message: 'Villager was slain by Zombie Villager'
+[19:11:49] [Server thread/INFO]: Villager EntityVillager['Villager'/12539, l='ServerLevel[world]', x=520.30, y=36.00, z=80.57] died, message: 'Villager was slain by Zombie Villager'
+[19:11:52] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:12:50] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:zombie_villager
+[19:12:53] [Server thread/INFO]: kflypppw issued server command: /kill @e[type=minecraft:zombie_villager]
+[19:12:53] [Server thread/INFO]: [kflypppw: Killed 18 entities]
+[19:12:57] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:13:08] [Server thread/INFO]: Villager EntityVillager['Villager'/12734, l='ServerLevel[world]', x=520.74, y=36.00, z=80.15] died, message: 'Villager was slain by Zombie Villager'
+[19:13:10] [Server thread/INFO]: Villager EntityVillager['Villager'/12738, l='ServerLevel[world]', x=520.16, y=36.00, z=79.61] died, message: 'Villager was slain by Zombie Villager'
+[19:13:15] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:13:15] [Server thread/INFO]: [@: Killed 5 entities]
+[19:13:35] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[19:13:35] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:13:44] [Server thread/INFO]: Villager EntityVillager['Villager'/12766, l='ServerLevel[world]', x=520.30, y=36.00, z=79.80] died, message: 'Villager was slain by Zombie Villager'
+[19:13:53] [Server thread/INFO]: Villager EntityVillager['Villager'/12769, l='ServerLevel[world]', x=513.70, y=36.00, z=80.59] died, message: 'Villager was slain by Zombie Villager'
+[19:13:54] [Server thread/INFO]: kflypppw issued server command: /spawn
+[19:14:00] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[19:14:17] [Server thread/INFO]: kflypppw issued server command: /spawn
+[19:14:20] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[19:14:20] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:14:20] [Server thread/INFO]: [@: Killed Zombie Villager]
+[19:14:21] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:14:28] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:14:28] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:14:33] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:14:39] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:14:43] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:14:43] [Server thread/INFO]: [@: Killed 3 entities]
+[19:15:14] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[19:15:14] [Server thread/INFO]: [kflypppw: Changed the block at 582, 33, 37]
+[19:15:18] [Server thread/INFO]: [@: Changed the block at 582, 33, 37]
+[19:15:18] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:15:29] [Server thread/INFO]: Villager EntityVillager['Villager'/13787, l='ServerLevel[world]', x=520.30, y=36.00, z=80.03] died, message: 'Villager was slain by Zombie Villager'
+[19:15:31] [Server thread/INFO]: Villager EntityVillager['Villager'/12904, l='ServerLevel[world]', x=520.31, y=36.00, z=79.98] died, message: 'Villager was slain by Zombie Villager'
+[19:15:38] [Server thread/INFO]: Villager EntityVillager['Villager'/12901, l='ServerLevel[world]', x=512.31, y=36.00, z=79.55] died, message: 'Villager was slain by Zombie Villager'
+[19:15:41] [Server thread/INFO]: Villager EntityVillager['Villager'/13792, l='ServerLevel[world]', x=517.42, y=36.00, z=79.61] died, message: 'Villager was slain by Zombie Villager'
+[19:15:46] [Server thread/INFO]: kflypppw issued server command: /spawn
+[19:15:49] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[19:15:49] [Server thread/INFO]: [kflypppw: Changed the block at 582, 33, 37]
+[19:15:50] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:15:50] [Server thread/INFO]: [@: Killed 2 entities]
+[19:15:55] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[19:15:55] [Server thread/INFO]: [@: Changed the block at 582, 33, 37]
+[19:15:56] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:16:01] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[19:16:01] [Server thread/INFO]: [kflypppw: Changed the block at 582, 33, 37]
+[19:16:02] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:16:02] [Server thread/INFO]: [@: Killed 3 entities]
+[19:16:07] [Server thread/INFO]: kflypppw issued server command: /
+[19:16:11] [Server thread/INFO]: kflypppw issued server command: /warp scene2
+[19:16:11] [Server thread/INFO]: [@: Changed the block at 582, 33, 37]
+[19:16:11] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:16:14] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:16:14] [Server thread/INFO]: [@: Killed 3 entities]
+[19:20:20] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:20:27] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:20:27] [Server thread/INFO]: [@: Killed 3 entities]
+[19:20:27] [Server thread/INFO]: Villager EntityVillager['Villager'/14976, l='ServerLevel[world]', x=518.80, y=36.00, z=79.30] died, message: 'Villager fell out of the world'
+[19:20:27] [Server thread/INFO]: Villager EntityVillager['Villager'/14979, l='ServerLevel[world]', x=521.26, y=36.00, z=80.70] died, message: 'Villager fell out of the world'
+[19:20:27] [Server thread/INFO]: Villager EntityVillager['Villager'/15765, l='ServerLevel[world]', x=521.70, y=36.00, z=80.12] died, message: 'Villager didn't want to live in the same world as Zombie Villager'
+[19:20:27] [Server thread/INFO]: Villager EntityVillager['Villager'/15774, l='ServerLevel[world]', x=520.40, y=36.00, z=80.70] died, message: 'Villager fell out of the world'
+[19:20:27] [Server thread/INFO]: Villager EntityVillager['Villager'/20892, l='ServerLevel[world]', x=520.93, y=36.00, z=80.16] died, message: 'Villager fell out of the world'
+[19:20:27] [Server thread/INFO]: Villager EntityVillager['Villager'/20900, l='ServerLevel[world]', x=521.36, y=36.00, z=79.30] died, message: 'Villager fell out of the world'
+[19:20:27] [Server thread/INFO]: [@: Killed 6 entities]
+[19:21:06] [Server thread/INFO]: kflypppw issued server command: /give kflypppw barrier{
+[19:21:08] [Server thread/INFO]: kflypppw issued server command: /give kflypppw minecraft:barrier
+[19:21:08] [Server thread/INFO]: [kflypppw: Gave 1 [Barrier] to kflypppw]
+[19:21:18] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[19:21:19] [Server thread/INFO]: [kflypppw: Changed the block at 582, 33, 37]
+[19:21:25] [Server thread/INFO]: [@: Changed the block at 582, 33, 37]
+[19:21:25] [Server thread/INFO]: [@: The difficulty has been set to Hard]
+[19:21:33] [Server thread/INFO]: Villager EntityVillager['Villager'/22460, l='ServerLevel[world]', x=521.69, y=36.00, z=80.69] died, message: 'Villager was slain by Zombie Villager'
+[19:21:51] [Server thread/INFO]: [@: The difficulty has been set to Easy]
+[19:21:51] [Server thread/INFO]: [@: Killed 4 entities]
+[19:21:51] [Server thread/INFO]: Villager EntityVillager['Villager'/22474, l='ServerLevel[world]', x=512.93, y=36.00, z=79.75] died, message: 'Villager fell out of the world'
+[19:21:51] [Server thread/INFO]: [@: Killed Villager]
+[19:22:56] [Server thread/INFO]: kflypppw issued server command: //set iron_door[open=true]
+[19:23:33] [Server thread/INFO]: kflypppw issued server command: /warp scene3
+[19:24:06] [Server thread/INFO]: kflypppw issued server command: /warp scene1
+[19:24:06] [Server thread/INFO]: [kflypppw: Changed the block at 582, 33, 37]
+[19:24:10] [Server thread/INFO]: [@: Changed the block at 582, 33, 37]
+[19:24:22] [Server thread/INFO]: kflypppw issued server command: //wand
+[19:31:14] [Server thread/INFO]: kflypppw lost connection: Disconnected
+[19:31:14] [Server thread/INFO]: kflypppw left the game

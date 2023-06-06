@@ -5,7 +5,7 @@ Spawn:
   - value:
       destination:
         id:
-          X: 1058.1371
+          X: 1058.137
           Pitch: 1.0499
           Y: 47.0625
           Z: 313.587
@@ -13,7 +13,7 @@ Spawn:
           Yaw: 90.3022
         type: 6
   displayname: Spawn
-  performed: 56
+  performed: 60
   usage: 4
   respawn: 2
   fireworks: true
@@ -48,7 +48,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 13
+  performed: 17
   actions:
   - value:
       destination:
