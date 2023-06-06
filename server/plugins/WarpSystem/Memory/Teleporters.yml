@@ -5,15 +5,15 @@ Spawn:
   - value:
       destination:
         id:
-          X: 1058.1373
+          X: 1058.1371
           Pitch: 1.0499
           Y: 47.0625
           Z: 313.587
           World: world
-          Yaw: 90.3024
+          Yaw: 90.3022
         type: 6
   displayname: Spawn
-  performed: 53
+  performed: 56
   usage: 4
   respawn: 2
   fireworks: true
@@ -32,7 +32,7 @@ WarpSigns:
   - to go to the
   - 1st challenge
   - ''
-  performed: 3
+  performed: 7
   actions:
   - value:
       destination:
@@ -48,7 +48,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 9
+  performed: 13
   actions:
   - value:
       destination:
@@ -64,27 +64,11 @@ WarpSigns:
   - and then
   - right click here
   - to continue
-  performed: 2
+  performed: 4
   actions:
   - value:
       destination:
         id: spawn
-        type: 1
-- location:
-    X: 641.0
-    Y: 38.0
-    Z: 51.0
-    World: world
-  text:
-  - Right click on
-  - this sign when
-  - you're ready
-  - ''
-  performed: 8
-  actions:
-  - value:
-      destination:
-        id: scene3
         type: 1
 - location:
     X: 1054.0
@@ -96,7 +80,7 @@ WarpSigns:
   - to go to the
   - 2nd challenge
   - ''
-  performed: 1
+  performed: 3
   actions:
   - value:
       destination:
@@ -112,7 +96,7 @@ WarpSigns:
   - when you're
   - ready!
   - ''
-  performed: 2
+  performed: 4
   actions:
   - value:
       destination:
@@ -128,11 +112,43 @@ WarpSigns:
   - to teleport
   - to the top
   - ''
-  performed: 3
+  performed: 5
   actions:
   - value:
       destination:
         id: tower_top
+        type: 1
+- location:
+    X: 517.0
+    Y: 35.0
+    Z: 74.0
+    World: world
+  text:
+  - Right click here
+  - 'when you''re '
+  - ready
+  - ''
+  performed: 1
+  actions:
+  - value:
+      destination:
+        id: scene3
+        type: 1
+- location:
+    X: 1172.0
+    Y: 34.0
+    Z: 633.0
+    World: world
+  text:
+  - Grab the item
+  - in the chest,
+  - then right click
+  - here
+  performed: 2
+  actions:
+  - value:
+      destination:
+        id: spawn
         type: 1
 - location:
     X: 1087.0
@@ -160,7 +176,7 @@ WarpSigns:
   - to begin your
   - challenge!
   - ''
-  performed: 4
+  performed: 6
   actions:
   - value:
       destination:
@@ -176,7 +192,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - ''
-  performed: 6
+  performed: 8
   actions:
   - value:
       destination:
