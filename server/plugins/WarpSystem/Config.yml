@@ -111,16 +111,16 @@ WarpSystem:
   
   Send:
     Teleport_Message:
-      WarpGUI: true
-      SimpleWarps: true
-      GlobalWarps: true
-      Shortcuts: true
-      Portals: true
-      WarpSigns: true
-      CommandBlocks: true
-      PlayerWarps: true
-      Spawn: true
-      RandomTp: true
+      WarpGUI: false
+      SimpleWarps: false
+      GlobalWarps: false
+      Shortcuts: false
+      Portals: false
+      WarpSigns: false
+      CommandBlocks: false
+      PlayerWarps: false
+      Spawn: false
+      RandomTp: false
     Teleport_Cancel_Message: true
   
   Functions:
