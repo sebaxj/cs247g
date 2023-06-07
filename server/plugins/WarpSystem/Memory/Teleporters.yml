@@ -28,11 +28,11 @@ WarpSigns:
     Z: 38.0
     World: world
   text:
-  - Right click here
-  - to begin
   - ''
+  - Right click this
+  - sign to begin!
   - ''
-  performed: 4
+  performed: 10
   actions:
   - value:
       destination:
@@ -48,7 +48,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - to start
-  performed: 13
+  performed: 17
   actions:
   - value:
       destination:
@@ -60,11 +60,11 @@ WarpSigns:
     Z: 41.0
     World: world
   text:
-  - Right click here
-  - when you're
-  - ready
-  - ''
-  performed: 3
+  - Right click
+  - this sign when
+  - you're ready
+  - to move on
+  performed: 12
   actions:
   - value:
       destination:
@@ -80,7 +80,7 @@ WarpSigns:
   - the chest then
   - click here to
   - return to boat
-  performed: 5
+  performed: 9
   actions:
   - value:
       destination:
@@ -96,7 +96,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - to move on
-  performed: 9
+  performed: 15
   actions:
   - value:
       destination:
@@ -112,7 +112,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - to move on
-  performed: 12
+  performed: 18
   actions:
   - value:
       destination:
@@ -128,7 +128,7 @@ WarpSigns:
   - the chest then
   - click here to
   - return to boat
-  performed: 5
+  performed: 11
   actions:
   - value:
       destination:
@@ -176,7 +176,7 @@ WarpSigns:
   - this sign when
   - you're ready
   - to start
-  performed: 8
+  performed: 12
   actions:
   - value:
       destination:

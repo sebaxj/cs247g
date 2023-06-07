@@ -10,6 +10,14 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    yacht:
+        min: {x: 623, y: 16, z: 533}
+        max: {x: 753, y: 63, z: 559}
+        members: {}
+        flags: {mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     spawn:
         members: {}
         flags:
@@ -18,8 +26,8 @@ regions:
             creeper-explosion: deny
             exit-deny-message: Oops! You can't walk off the boat! To leave, use the
                 teleports.
-            invincible: allow
             use: allow
+            invincible: allow
             exit-via-teleport: allow
             deny-spawn: ['minecraft:creeper']
             mob-spawning: deny
@@ -92,12 +100,12 @@ regions:
         flags:
             exit: deny
             exit-deny-message: You can't leave the island without solving the clue!
-            mob-damage: allow
             greeting: Kill zombies and find the hidden temple which contains a crucial
                 ingredient for the cure.
+            mob-damage: allow
             damage-animals: allow
-            chest-access: allow
             greeting-title: 'Welcome to the first challenge: "The Island"'
+            chest-access: allow
             deny-spawn: ['minecraft:skeleton', 'minecraft:enderman', 'minecraft:spider',
                 'minecraft:creeper', 'minecraft:husk', 'minecraft:slime']
             mob-spawning: allow
@@ -238,6 +246,14 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    bedroom:
+        min: {x: 501, y: 27, z: 65}
+        max: {x: 528, y: 45, z: 92}
+        members: {}
+        flags: {game-mode: creative, game-mode-group: NON_MEMBERS, chest-access: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     tower:
         min: {x: 1571, y: 26, z: 1308}
         max: {x: 1745, y: 203, z: 1443}
@@ -249,4 +265,10 @@ regions:
             fall-damage: allow
         owners: {}
         type: cuboid
+        priority: 0
+    __global__:
+        members: {}
+        flags: {}
+        owners: {}
+        type: global
         priority: 0

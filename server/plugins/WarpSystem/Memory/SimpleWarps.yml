@@ -1,15 +1,4 @@
 Warps:
-- LastChange: 1685016516954
-  Name: city
-  Location:
-    X: 1574.4196
-    Pitch: 22.7996
-    Y: 91.9393
-    Z: 1249.5629
-    World: world
-    Yaw: -108.9076
-  Created: 1685016516954
-  LastChanger: kflypppw
 - LastChange: 1685484624932
   Name: tower_top
   Location:
@@ -31,6 +20,17 @@ Warps:
     World: world
     Yaw: -89.4785
   Created: 1686052408537
+  LastChanger: kflypppw
+- LastChange: 1686098060708
+  Name: combo
+  Location:
+    X: 1180.1914
+    Pitch: -15.3002
+    Y: 33.0
+    Z: 632.2544
+    World: world
+    Yaw: -15.7489
+  Created: 1686098060708
   LastChanger: kflypppw
 - LastChange: 1685039321864
   Name: sand2
@@ -178,12 +178,12 @@ Warps:
 - LastChange: 1685050098408
   Name: scene2
   Location:
-    X: 517.9498
-    Pitch: -11.6997
+    X: 518.6998
+    Pitch: -2.3996
     Y: 34.0
-    Z: 74.3152
+    Z: 74.6998
     World: world
-    Yaw: -7.8835
+    Yaw: -13.7334
   Created: 1685050098408
   LastChanger: epicpanda72
 - LastChange: 1685048361983
